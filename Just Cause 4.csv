@@ -8,7 +8,10 @@ Order,Type,Screen Settings,Vertical Sync,Anisotropic Level,Anti-Aliasing,Texture
 7,"Minimum Acceptable
 
 below these settings, the quality loss is too significant",,,8x,,Low,Medium,No,Low,Medium,No,No,No,No,No,No
-8,Minimum Acceptable - Notes,,,"Even 2x makes a difference
+8,"Minimum Acceptable - Notes
+
+Video
+https://www.youtube.com/watch?v=uUH4mv-hUXI",,,"Even 2x makes a difference
 
 Not seeing benefit of 16x, so 8x probably best to stop at","On
 
@@ -38,4 +41,4 @@ but the difference is apparent with water","No
 Unconvinced it makes a significant impact
 
 Found an example where it impacted presence of heat distortion"
-9,High,Borderless,No,8x,Temporal SMAA,High,High,Yes,High,High,Yes,No,No,Yes,No,Yes
+9,'High' Preset,Borderless,No,8x,Temporal SMAA,High,High,Yes,High,High,Yes,No,No,Yes,No,Yes
