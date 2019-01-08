@@ -1,39 +1,75 @@
-Order,Type,Display Mode,Vertical Sync,Shadow Quality,Anti-Aliasing,View Distance,Texture Quality,Post Processing,Effects Quality,Foliage Quality
-1,Option 1,Window,Off,Low,Low,Low,Low,Low,Low,Low
-2,Option 2,Fullscreen,On,Medium,Medium,Medium,Medium,Medium,Medium,Medium
-3,Option 3,Windowed Fullscreen,,High,High,High,High,High,High,High
-4,Option 4,,,Epic,Epic,Epic,Epic,Epic,Epic,Epic
-5,Option 5,,,,,Cinematic,,,,
-6,Review Settings,Windowed Fullscreen,Off,Epic,Epic,Cinematic,Epic,Epic,Epic,Epic
-7,"Minimum Acceptable
+Order,Type,Display Mode,V-Sync,V-Sync Interval,HDR,Super Sampling,Level of Detail,Texture Quality,Texture Filter,SSAO,Shadow Quality,Override Memory Safeguards,Notes,Screenspace Shadows,Reflection Quality,Motion Blur,Dynamic Sharpening,Simulation Quality
+1,Option 1,Windowed,Off,1 (100% FPS),Off,1.00,Low,Low,Trilinear,Off,Low,No,"SMAA T1x is always enabled
 
-below these settings, the quality loss is too significant",,,Medium,High,Low,Low,Medium,Low,Low
-8,"Minimum Acceptable - Notes
+https://www.eurogamer.net/articles/2018-11-13-hitman-2-is-a-stunningly-detailed-game-with-some-cool-tech-features",Off,Off,Off,Off,Base
+2,Option 2,Fullscreen,On,2 (50% FPS),On,,Medium,Normal,Anisotropic 2x,On,Medium,Yes,,On,Low,Low,Weak,Better
+3,Option 3,Exclusive Fullscreen,,,,,High,High,Anisotropic 4x,,High,,,,Medium,Medium,Moderate,Best
+4,Option 4,,,,,,Ultra,,Anisotropic 8x,,Ultra,,,,High,High,Strong,
+5,Option 5,,,,,,,,Anisotropic 16x,,,,,,,,,
+6,Option 6,,,,,2.00,,,,,,,,,,,,
+7,Review Settings,Fullscreen,Off,1 (100% FPS),Off,1.00,Ultra,High,Anisotropic 16x,On,Ultra,No,"Due to weird Temperature issue, playing with Radeon Chill 45-70 enabled",,,,,
+8,"Minimum Acceptable
+
+below these settings, the quality loss is too significant",,,,,,Medium,Normal,Anisotropic 8x,Off,High,,,,,,,
+9,"Minimum Acceptable - Notes
 
 Video
-https://www.youtube.com/watch?v=w2irIWAvrJs",,,"Definitely not Low (looks like shadows are off)
+https://www.youtube.com/watch?v=aQ_Ft_wMuLY",,,,,1.00,"Low
 
-Appears Medium-Epic, difference is LOD distance","High, as it gets rid of the artifacting
+At least on Miami, the difference between Low and Ultra is not much, so should be happy with Low
 
-However, Medium does a not bad job, but leaves some artifacting.
-Noticed the Rider's Mercy talisam looks to be at a lower resolution on Medium, based on the aliasing of it, so recommend High
+Medium
+in one spot, could see the impact this has over Low (Isle of Sgail)
 
-Low has a lot of aliasing. Thinking Low is without AA
-Medium is with FXAA","Low (from Maker's Forge)
+High 
 
-Can see more foliage being rendered at Medium and High, but not really needed
-Unsure what Epic and Cinematic give you",Low because I can't see a difference between Low and Epic (at Maker's Forge),"Setting seems to control Ambient Occlusion
 
-Low appears to be AO off, so not desired as here AO is evident
+Ultra","Low
 
-Medium is AO on, and above this I couldn't tell you the difference is worth it","Low because it meets the Minimum Acceptable standard
+looks good (Miami)
+not horrible, but going to Normal will be best (Mumbai)
 
-Both Low and Medium seem to pulse some effects on and off, Medium pulses on more rapidly
-High pulses less often and some effects are always on
-Epic does not appear to pulse at all","Low by MA standard
-seems to be decorative foliage is gone, so looks different but not strictly bad
+Normal 
+looks better than low, but uses ~4 GB on Miami
+definitely best for clothing details (Isle of Sgail)
 
-Medium and up add more foliage, making it look better
+High
+looks best but over 4 GB","Trilinear
 
-Should be more of a Ground Decoration label than foliage
-Run Medium if you can, to give world more character"
+Avoid if you can
+
+Anisotropic 4x
+probably where you should start (Miami)
+not always good enough though (Mumbai)
+
+Anisotropic 8x
+looks good so you can be happy
+gets you some detail otherwise lost (Mumbai)
+
+Anisotropic 16x
+looks best, should use
+
+","Off
+
+it is noticeable on Maimi, but not a horrible loss","Low
+
+just tolerable, go higher if you can
+
+Medium
+Is good and no problem if this is what you need to do
+
+High
+Is better for 'real' things
+
+Ultra
+is best for all things
+
+Could believe High and Ultra only differ in what they apply to, not the quality of the 'real' shadows",,"Only the 'real' people, who appear in the mini-map have shadows at distance. The non-real people lose them at medium distance.",,,,,
+10,Minimum Acceptable - 2.12,,,,,,,,,,,,,Off,Low,Personal Choice,Off,Leave Alone
+11,"Minimum Acceptable - 2.12 - Notes
+
+Video
+https://www.youtube.com/watch?v=fIr-Gy9Mw14",,,,,,,,,,,,,Believe there to be little noticable visual impact from On,"Low is the minimal acceptable by definition
+
+Medium and High both appear to use some kind of temporal filter (amotizied supersampling related, I think) to improve the final reflection quality. However, they do suffer from a ghosting artifact when moving.","Still personal choice
+could not notice the difference myself","Honestly, it is very hard to spot any difference with it off or on, so Off",It is already set to detect the number of cores you have and set itself accordingly. Just go with that.
