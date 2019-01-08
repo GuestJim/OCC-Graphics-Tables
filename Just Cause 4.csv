@@ -1,0 +1,41 @@
+Order,Type,Screen Settings,Vertical Sync,Anisotropic Level,Anti-Aliasing,Texture Quality,Water Detail,Ocean Tessellation,LOD Factor,Shadow Quality,SSAO,Motion Blur,Edge Fade,Global Illumination,Screen Space Reflections,Bokeh Depth of Field
+1,Option 1,Windowed,No,1x,Off,Low,Low,No,Low,Low,No,No,No,No,No,No
+2,Option 2,Fullscreen,Yes,2x,FXAA,Medium,Medium,Yes,Medium,Medium,Yes,Yes,Yes,Yes,Yes,Yes
+3,Option 3,Borderless,,4x,Temporal SMAA,High,High,,High,High,,,,,,
+4,Option 4,,,8x,,Very High,Very High,,Very High,Very High,,,,,,
+5,Option 5,,,16x,,,,,,,,,,,,
+6,Review Settings,Borderless,No,16x,Temporal SMAA,Very High,Very High,Yes,Very High,Very High,Yes,No,Yes,Yes,Yes,Yes
+7,"Minimum Acceptable
+
+below these settings, the quality loss is too significant",,,8x,,Low,Medium,No,Low,Medium,No,No,No,No,No,No
+8,Minimum Acceptable - Notes,,,"Even 2x makes a difference
+
+Not seeing benefit of 16x, so 8x probably best to stop at","On
+
+FXAA or Temporal SMAA
+Either method does help, so go with whichever you want
+Temporal SMAA does do better, but is not perfect",Low looks good. Hard to see difference frome other settings,"Low is acceptable
+
+Medium gives great visual improvement
+
+don't see High and Very High improvement","No
+
+unsure what it does","Low is acceptable, can't find difference","Medium
+
+Low makes even the closer shadows soft
+
+Cannot see the detail edge for Very High","No
+
+It makes a difference, but not critical",Personal Preference,"Adds a dark fade around the monitor/display edge. Really not necessary, so personal choice","No
+
+Not seeing significant change
+
+In one example, it makes things brighter that should be in shadow","No
+
+by definition
+but the difference is apparent with water","No
+
+Unconvinced it makes a significant impact
+
+Found an example where it impacted presence of heat distortion"
+9,High,Borderless,No,8x,Temporal SMAA,High,High,Yes,High,High,Yes,No,No,Yes,No,Yes

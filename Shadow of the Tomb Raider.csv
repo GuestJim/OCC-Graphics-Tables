@@ -1,0 +1,13 @@
+Order,Type,DirectX 12,Anti-Aliasing,Texture Quality,Texture Filtering,Shadow Quality,Depth of Field,Level of Detail,Ambient Occlusion,Pure Hair,Screen Space Contact Shadows,Motion Blur,Bloom,Screen Space Reflections,Lens Flares,Screen Effects,Volumetric Lighting,Tesselation
+1,Option 1,False,Off,Low,Trilinear,Off,Off,Lowest,Off,Low,Off,False,False,False,False,False,False,False
+2,Option 2,True,SMAA,Normal,2x Anisotropic,Low,Normal,Low,BTAO,Normal,Normal,True,True,True,True,True,True,True
+3,Option 3,,TAA,High,4x Anisotropic,Medium,High,Normal,HBAO+,,High,,,,,,,
+4,Option 4,,SMAA T2x,Ultra,8x Anisotropic,High,,High,,,,,,,,,,
+5,Option 5,,SMAA 4x,,16x Anisotropic,Ultra,,Ultra,,,,,,,,,,
+6,Preset - Lowest,,,Low,Trilinear,Off,Off,Lowest,Off,Low,Off,False,False,False,True,True,False,False
+7,Preset - Low,,,Low,Trilinear,Low,Off,Low,Off,Low,Off,False,True,False,True,True,True,False
+8,Preset - Medium,,,Normal,2x Anisotropic,Low,Normal,Normal,BTAO,Normal,Off,True,True,True,True,True,True,False
+9,Preset - High,,,High,4x Anisotropic,Normal,Normal,Normal,BTAO,Normal,Off,True,True,True,True,True,True,True
+10,Preset - Highest,,,Ultra,8x Anisotropic,High,High,High,HBAO+,Normal,Normal,True,True,True,True,True,True,True
+11,Restart Required,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+12,Review Settings,True,SMAA 4x,Ultra,16x Anisotropic,Ultra,Off,Ultra,HBAO+,Normal,High,False,True,True,True,,,

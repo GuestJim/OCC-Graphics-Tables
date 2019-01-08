@@ -1,0 +1,66 @@
+Order,Type,Display Mode,V-Sync,V-Sync Interval,HDR,Super Sampling,Level of Detail,Texture Quality,Texture Filter,SSAO,Shadow Quality,Override Memory Safeguards,Notes,Screenspace Shadows,Reflection Quality,Motion Blur,Dynamic Sharpening,Simulation Quality
+1,Option 1,Windowed,Off,1 (100% FPS),Off,1.00,Low,Low,Trilinear,Off,Low,No,"SMAA T1x is always enabled
+
+https://www.eurogamer.net/articles/2018-11-13-hitman-2-is-a-stunningly-detailed-game-with-some-cool-tech-features",Off,Off,Off,Off,Base
+2,Option 2,Fullscreen,On,2 (50% FPS),On,,Medium,Normal,Anisotropic 2x,On,Medium,Yes,,On,Low,Low,Weak,Better
+3,Option 3,Exclusive Fullscreen,,,,,High,High,Anisotropic 4x,,High,,,,Medium,Medium,Moderate,Best
+4,Option 4,,,,,,Ultra,,Anisotropic 8x,,Ultra,,,,High,High,Strong,
+5,Option 5,,,,,,,,Anisotropic 16x,,,,,,,,,
+6,Option 6,,,,,2.00,,,,,,,,,,,,
+7,Review Settings,Fullscreen,Off,1 (100% FPS),Off,1.00,Ultra,High,Anisotropic 16x,On,Ultra,No,"Due to weird Temperature issue, playing with Radeon Chill 45-70 enabled",,,,,
+8,"Minimum Acceptable
+
+below these settings, the quality loss is too significant",,,,,,Medium,Normal,Anisotropic 8x,Off,High,,,,,,,
+9,"Minimum Acceptable - Notes
+
+below these settings, the quality loss is too significant",,,,,1.00,"Low
+At least on Miami, the difference between Low and Ultra is not much, so should be happy with Low
+
+Medium
+in one spot, could see the impact this has over Low (Isle of Sgail)
+
+High 
+
+
+Ultra","Low
+looks good (Miami)
+not horrible, but going to Normal will be best (Mumbai)
+
+Normal 
+looks better than low, but uses ~4 GB on Miami
+definitely best for clothing details (Isle of Sgail)
+
+High
+looks best but over 4 GB","Trilinear
+Avoid if you can
+
+Anisotropic 4x
+probably where you should start (Miami)
+not always good enough though (Mumbai)
+
+Anisotropic 8x
+looks good so you can be happy
+gets you some detail otherwise lost (Mumbai)
+
+Anisotropic 16x
+looks best, should use
+
+","Off
+it is noticeable on Maimi, but not a horrible loss","Low
+just tolerable, go higher if you can
+
+Medium
+Is good and no problem if this is what you need to do
+
+High
+Is better for 'real' things
+
+Ultra
+is best for all things
+
+Could believe High and Ultra only differ in what they apply to, not the quality of the 'real' shadows",,"Only the 'real' people, who appear in the mini-map have shadows at distance. The non-real people lose them at medium distance.",,,,,
+10,Minimum Acceptable - 2.12,,,,,,,,,,,,,Off,Low,Personal Choice,Off,Leave Alone
+11,Minimum Acceptable - 2.12 - Notes,,,,,,,,,,,,,Believe there to be little noticable visual impact from On,"Low is the minimal acceptable by definition
+
+Medium and High both appear to use some kind of temporal filter (amotizied supersampling related, I think) to improve the final reflection quality. However, they do suffer from a ghosting artifact when moving.","Still personal choice
+could not notice the difference myself","Honestly, it is very hard to spot any difference with it off or on, so Off",It is already set to detect the number of cores you have and set itself accordingly. Just go with that.

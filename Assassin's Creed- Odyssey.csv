@@ -1,0 +1,16 @@
+Order,Type,Anti Aliasing,Shadows,Environment Details,Texture Details,Terrain,Clutter,Fog,Water,Screen Space Reflections,Volumetric Clouds,Characters - Texture Detail,Characters - Character,Ambient Occlusion,Depth of Field
+1,Option 1,Off,Low,Low,Low,Medium,Low,Low,Low,Off,Low,Low,Low,Off,Off
+2,Option 2,Low,Medium,Medium,Medium,High,Medium,Medium,Medium,Medium,Medium,Medium,Medium,Medium,Low
+3,Option 3,Medium,High,High,High,,High,High,High,High,High,High,High,High,High
+4,Option 4,High,Very High,Very High,,,Very High,,Very High,,Very High,,Very High,Very High,
+5,Option 5,Adaptive,Ultra High,Ultra High,,,,,,,Ultra High,,Ultra High,,
+6,Preset - Low,Low,Low,Low,Medium,Low,Low,Low,Low,Off,Low,Low,Low,Off,Off
+7,Preset - Medium,Medium,Medium,Medium,Medium,High,Medium,Low,Medium,Medium,Medium,Medium,Medium,Medium,Low
+8,Preset - High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,High
+9,Preset - Very High,High,Very High,Very High,High,High,Very High,High,Very High,High,Very High,High,Very High,Very High,High
+10,Preset - Ultra High,High,Ultra High,Ultra High,High,High,Very High,High,Very High,High,Ultra High,High,Ultra High,Very High,High
+11,Restart Required,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+12,Review Settings,High,Ultra High,Ultra High,High,High,Very High,High,Very High,High,Ultra High,High,Ultra High,Very High,Off
+13,"Minimum Acceptable
+
+below these settings, the quality loss is too significant",High,High,,Medium,Medium,,Low,Low,High,Medium,,,Medium,Off

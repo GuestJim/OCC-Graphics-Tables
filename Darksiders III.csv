@@ -1,0 +1,38 @@
+Order,Type,Display Mode,Vertical Sync,Shadow Quality,Anti-Aliasing,View Distance,Texture Quality,Post Processing,Effects Quality,Foliage Quality
+1,Option 1,Window,Off,Low,Low,Low,Low,Low,Low,Low
+2,Option 2,Fullscreen,On,Medium,Medium,Medium,Medium,Medium,Medium,Medium
+3,Option 3,Windowed Fullscreen,,High,High,High,High,High,High,High
+4,Option 4,,,Epic,Epic,Epic,Epic,Epic,Epic,Epic
+5,Option 5,,,,,Cinematic,,,,
+6,Review Settings,Windowed Fullscreen,Off,Epic,Epic,Cinematic,Epic,Epic,Epic,Epic
+7,"Minimum Acceptable
+
+below these settings, the quality loss is too significant",,,Medium,High,Low,Low,Medium,Low,Low
+8,"Minimum Acceptable - Notes
+
+below these settings, the quality loss is too significant",,,"Definitely not Low (looks like shadows are off)
+
+Appears Medium-Epic, difference is LOD distance","High, as it gets rid of the artifacting
+
+However, Medium does a not bad job, but leaves some artifacting.
+Noticed the Rider's Mercy talisam looks to be at a lower resolution on Medium, based on the aliasing of it, so recommend High
+
+Low has a lot of aliasing. Thinking Low is without AA
+Medium is with FXAA","Low (from Maker's Forge)
+
+Can see more foliage being rendered at Medium and High, but not really needed
+Unsure what Epic and Cinematic give you",Low because I can't see a difference between Low and Epic (at Maker's Forge),"Setting seems to control Ambient Occlusion
+
+Low appears to be AO off, so not desired as here AO is evident
+
+Medium is AO on, and above this I couldn't tell you the difference is worth it","Low because it meets the Minimum Acceptable standard
+
+Both Low and Medium seem to pulse some effects on and off, Medium pulses on more rapidly
+High pulses less often and some effects are always on
+Epic does not appear to pulse at all","Low by MA standard
+seems to be decorative foliage is gone, so looks different but not strictly bad
+
+Medium and up add more foliage, making it look better
+
+Should be more of a Ground Decoration label than foliage
+Run Medium if you can, to give world more character"

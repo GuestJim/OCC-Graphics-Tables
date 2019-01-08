@@ -1,0 +1,5 @@
+Order,Type,Display Resolution,Display Mode,Anti Aliasing,V-Sync,Framerate Throttle,Bloom,Depth of Field,Motion Blur,SSAO,Film Grain,Fog
+1,Option 1,"480, 576, 640, 720, 768, 900, 1080, 1440, 2160, 2880",Windowed,Off,Off,30,Off,Off,Off,Off,Off,Off
+2,Option 2,,Fullscreen,SMAA,On,60,On,On,On,On,On,On
+3,Option 3,,,SMAA 2x,,Unlimited,,,,,,
+4,Review Settings,1080,Fullscreen,SMAA 2x,Off,Unlimited,On,Off,Off,On,Off,On
