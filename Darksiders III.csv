@@ -7,7 +7,7 @@ Order,Type,Display Mode,Vertical Sync,Shadow Quality,Anti-Aliasing,View Distance
 6,Review Settings,Windowed Fullscreen,Off,Epic,Epic,Cinematic,Epic,Epic,Epic,Epic
 7,"Minimum Acceptable
 
-below these settings, the quality loss is too significant",,,Medium,High,Low,Low,Medium,Low,Low
+below these settings, the quality loss is too significant",,,Medium,Medium,Low,Low,Medium,Low,Low
 8,"Minimum Acceptable - Notes
 
 Video
@@ -19,7 +19,12 @@ However, Medium does a not bad job, but leaves some artifacting.
 Noticed the Rider's Mercy talisam looks to be at a lower resolution on Medium, based on the aliasing of it, so recommend High
 
 Low has a lot of aliasing. Thinking Low is without AA
-Medium is with FXAA","Low (from Maker's Forge)
+Medium is with FXAA
+
+2019-02-03
+Appears the artifacting observed with lighting has been fixed for Medium making
+Medium
+the new minimium","Low (from Maker's Forge)
 
 Can see more foliage being rendered at Medium and High, but not really needed
 Unsure what Epic and Cinematic give you",Low because I can't see a difference between Low and Epic (at Maker's Forge),"Setting seems to control Ambient Occlusion
@@ -37,3 +42,13 @@ Medium and up add more foliage, making it look better
 
 Should be more of a Ground Decoration label than foliage
 Run Medium if you can, to give world more character"
+9,Maximum Acceptable,,,Epic,Epic,High,Low,Epic,Epic,Epic
+10,Maximum Acceptable - Notes,,,"High appears to have a higher resolution to the shadows than Medium. Can observe polygon popping for the shadows on Medium.
+
+Slight change in near-view between High and Epic (Screenshot Difference)
+Epic is better for shadows at distance, but still Screenshot Distance.
+Epic because best distance","High is noticeably better than Medium
+High has a certain softness for motion, but this is not present for Epic. This difference is noticeable and this Epic is an acceptable maximum",Can see difference between Low and Medium and High. Cannot see difference between High and Epic though at Maker's Forge,"Cannot spot difference between Low and anything else (tested comparing to Epic at Marker's Forge)
+Might be resolution dependent for experience","Cannot spot difference between Medium and High
+Can see better shadowing between High and Epic, like foliage casting shadows. This is a minor difference, but is present and noticeable","Epic removes pulsing to the effects.
+High is still good looking, but the difference is present and better than Screenshot Difference","Epic because better than Screenshot Difference, but is eye-candy so unnecessary"

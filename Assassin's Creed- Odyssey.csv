@@ -11,6 +11,3 @@ Order,Type,Anti Aliasing,Shadows,Environment Details,Texture Details,Terrain,Clu
 10,Preset - Ultra High,High,Ultra High,Ultra High,High,High,Very High,High,Very High,High,Ultra High,High,Ultra High,Very High,High
 11,Restart Required,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
 12,Review Settings,High,Ultra High,Ultra High,High,High,Very High,High,Very High,High,Ultra High,High,Ultra High,Very High,Off
-13,"Minimum Acceptable
-
-below these settings, the quality loss is too significant",High,High,,Medium,Medium,,Low,Low,High,Medium,,,Medium,Off

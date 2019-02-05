@@ -27,7 +27,7 @@ Purely personal choice
 
 Screenshot Difference
 You'll notice it in screenshots, doubt you'll notice it in gameplay"
-15,Maximum Acceptable,,SMAA T2x,High,2x Anisotropic,Normal,High,High,HABO+,Normal,Normal,True,True,On,Off,On,On,On
+15,Maximum Acceptable,,SMAA T2x,High,2x Anisotropic,Normal,High,High,HBAO+,Normal,Normal,On,On,On,Off,On,On,On
 16,Maximum Acceptable - Notes,,"Based on the SSAA article, SMAA 4x does not add enough to make it worth it. SMAA, TAA, and SMAA T2x are good enough.","High is the max for 1152 (1080)
 Ultra is not immediatley noticeable in City, perhaps at 1440/2160","It might really be 4x in some areas, but the ground textures are noisy enough I don't think high levels of Anisotropic are necessary","honestly can't see how Normal is better, at least in the city
 
