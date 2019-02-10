@@ -1,4 +1,4 @@
-Order,Type,Screen Settings,Vertical Sync,Anisotropic Level,Anti-Aliasing,Texture Quality,Water Detail,Ocean Tessellation,LOD Factor,Shadow Quality,SSAO,Motion Blur,Edge Fade,Global Illumination,Screen Space Reflections,Bokeh Depth of Field
+Order,Type,Screen Settings,Vertical Sync,Anisotropic Level,Anti-Aliasing,Texture Quality,Water/Ocean Detail,Ocean Tessellation,LOD Factor,Shadow Quality,SSAO,Motion Blur,Edge Fade,Global Illumination,Screen Space Reflections,Bokeh Depth of Field
 1,Option 1,Windowed,No,1x,Off,Low,Low,No,Low,Low,No,No,No,No,No,No
 2,Option 2,Fullscreen,Yes,2x,FXAA,Medium,Medium,Yes,Medium,Medium,Yes,Yes,Yes,Yes,Yes,Yes
 3,Option 3,Borderless,,4x,Temporal SMAA,High,High,,High,High,,,,,,
@@ -31,9 +31,7 @@ High and Very High have the wake, but cannot distinguish between them.","No
 
 unsure what it does","Low is acceptable, can't find difference","Medium
 
-Low makes even the closer shadows soft
-
-Cannot see the detail edge for Very High","No
+Low and Medium appear to have the same detail distances, but Low has such a worse resolution to the shadows I think Medium is the real minimum here","No
 
 It makes a difference, but not critical",Personal Preference,"Adds a dark fade around the monitor/display edge. Really not necessary, so personal choice","Not seeing significant change
 
@@ -47,7 +45,6 @@ Found an example where it impacted presence of heat distortion"
 Spotted difference, but is near Screenshot Difference level","There is a difference between High and Very High, but it is personal preference
 It appears High and Very High use the same detail distance levels, but Very High has harder edges to the shadwos than High, so if you want softer shadow edges, High is more desirable
 
-This seems to be the same difference between Low and Medium, though the LOD distance is smaller than High/Very High",The difference is present,Personal Preference,"Adds a dark fade around the monitor/display edge. Really not necessary, so personal choice","Still no idea what it does, so see no reason to turn it on",The difference is visible,"Unconvinced it makes a significant impact
-
-Found an example where it impacted presence of heat distortion"
-13,'High' Preset,Borderless,No,8x,Temporal SMAA,High,High,Yes,High,High,Yes,No,No,Yes,No,Yes
+This seems to be the same difference between Low and Medium, though the LOD distance is smaller than High/Very High.",The difference is present,Personal Preference,"Adds a dark fade around the monitor/display edge. Really not necessary, so personal choice","Still no idea what it does, so see no reason to turn it on",The difference is visible,"Seems to control all Depth of Field, not just Bokeh effects"
+13,'High' Preset,Borderless,No,8x,Temporal SMAA,High,High,Yes,High,High,Yes,No,No,Yes,Yes,Yes
+14,RX Vega 64 - 60 FPS Target,,,16x,Temporal SMAA,Very High,Very High,Yes,Very High,Very High,Yes,Yes,Yes,Yes,Yes,Yes
