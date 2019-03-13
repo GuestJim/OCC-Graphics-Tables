@@ -1,0 +1,43 @@
+Order,Type,Display Mode,Aspect Ratio,Refresh Rate,V-sync,Multisampling,Anisotropic Filtering,TAA,Shader Detail,Texture Detail,Reflections,Screen Space Reflections,Shadows,Night Lighting,Ambient Occlusion,Advanced Ambient Occlusion,Particles,Advanced Blending,Weather,Crowd,Cloth,Mirrors,Vehicle Details,Track,Object,Trees,Ground Cover,Skidmarks,Motion Blur,God Rays,Chromatic Aberration,Bloom,Lens Flares,Light Streaks,Lens Dust
+1,Option 1,Windowed,Automatic,,Off,Off,Off,Off,Low,Low,Low,Off,Off,Off,Off,Off,Off,Off,Low,Off,Off,Off,Ultra Low,Low,Low,Ultra Low,Off,Off,Off,Off,Off,Off,Off,Off,Off
+2,Option 2,Fullscreen,4:3,,On,CMAA,2x,On,High,Medium,Medium,Replay Mode,Ultra Low,Low,Ultra Low,On,Low,On,High,Low,Low,Low,Low,Medium,Medium,Medium,Low,On,Replay Mode,Replay Mode,Replay Mode,Replay Mode,Replay Mode,Replay Mode,On
+3,Option 3,Windowed Borderless,5:3,,,MSAA 2x,4x,,,High,High,On,Low,Medium,Low,,Medium,,,Medium,High,Medium,Medium,High,High,High,Medium,,On,On,On,On,On,On,
+4,Option 4,,5:4,,,MSAA 4x,8x,,,Ultra,Ultra,,Medium,High,Medium,,High,,,High,,High,High,Ultra,Ultra,Ultra,High,,,,,,,,
+5,Option 5,,14:10,,,MSAA 8x,16x,,,,,,High,Ultra,High,,Ultra,,,Ultra,,,Ultra,,,,,,,,,,,,
+6,Option 6,,16:9,,,EQAA 2f4x,,,,,,,Ultra,,Ultra,,,,,,,,,,,,,,,,,,,,
+7,Option 7,,16:10,,,EQAA 4f8x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+8,Option 8,,21:9,,,EQAA 4f16x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+9,Option 9,,,,,EQAA 8f16x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+10,Restart Required,,,,,FALSE,,FALSE,FALSE,,FALSE,FALSE,FALSE,,FALSE,FALSE,FALSE,,,,,FALSE,,,,,,,,,,,,,
+11,Preset - Ultra Low,,,,,,,,Low,Low,Low,Off,Ultra Low,Off,Ultra Low,Off,Low,Off,Low,Off,Low,Off,Low,Medium,Low,Ultra Low,Off,Off,Off,Off,Off,Off,Off,Off,Off
+12,Preset - Low,,,,,,,,Low,Medium,Low,Off,Low,Low,Low,Off,Medium,Off,Low,Low,Low,Low,Medium,Medium,Medium,Medium,Low,Off,Off,Off,Off,Off,Off,Off,Off
+13,Preset - Medium,,,,,,,,High,Medium,Medium,Replay Mode,Medium,Medium,Medium,Off,Medium,Off,Low,Medium,High,Medium,Medium,Medium,Medium,Medium,Medium,On,On,On,On,On,On,On,On
+14,Preset - High,,,,,,,,High,High,High,Replay Mode,High,High,High,Off,High,On,High,High,High,High,High,High,High,High,High,On,On,On,On,On,On,On,On
+15,Preset - Ultra,,,,,,,,High,Ultra,Ultra,On,Ultra,Ultra,Ultra,On,Ultra,On,High,Ultra,High,High,Ultra,Ultra,Ultra,Ultra,High,On,On,On,On,On,On,On,On
+16,Review Options,Windowed Borderless,Automatic,,Off,MSAA 4x,16x,Off,High,Ultra,High,On,High,Ultra,High,Off,Low,On,High,Ultra,High,High,Ultra,Ultra,Ultra,Ultra,High,On,Off,On,Off,On,On,On,On
+17,"Minimum Acceptable
+
+below these settings, the quality loss is too significant",,,,,CMAA,2x,Off,High,Low,Low,Off,Ultra Low,,Off,Off,Off,,Low,Low,Off,Low,Low,Low,Medium,Ultra Low,Off,Off,Off,Off,Off,Off,Off,,
+18,"Minimum Acceptable - Notes
+
+Video
+https://www.youtube.com/watch?v=uUH4mv-hUXI",,,,,"CMAA does help some, but not necessarily that great
+MSAA 2x is better than CMAA, but if you cannot do MSAA, CMAA is not bad","You do want it enabled, so don't go with Off","Even at speed I can notice details being softened, but that is me and not everyone may notice the same","On Low it looks completely different
+Also seems to change other settings, like shadows are gone as are reflections","When not moving, Low doesn't look too good, but at speed is fair","Low because should be going by things fast enough to not need the highest detail.
+The reflections are present, just at a low resolution","By definition Off
+There are still reflections with this off, but potentiall less accurate, and definitely less range/coverage of the area with reflections (see them farther away when On than Off)","Ultra Low for environment shadows, looks okay. Don't want shadows Off. At Ultra Low shadows from environment appear soft, but not observing popping for them.
+The car shadow does pop until High",No clue what this setting controls,Does not really appear to contribute significantly to the image,"Unsure what this does. Can spot a difference when applying the change, but cannot spot in gameplay view",Particles really are not a necessary effect,"Unsure what it does
+will not comment","The difference between Low and High seems to be the density of the falling rain, so very cosemetic","Off is just weird because you still here them, even though no one is there.","When Off some flags are not present
+these flags look fine at Low though","When in a view with mirrors, you will want their reflections enabled","Noticing the license plate is lower resolution when Ultra Low, also some textures in the cabin.","This controls LOD distance for the track, not always apparent though, likely because you cannot always see that far on the track","Honestly at Low, the track looks fine, but it pops in, so this appears to be LOD control
+Medium shows no pop in",This controls the LOD distance for the trees,It appears this Ground Cover is the grass and weeds around the tracks,You don't need them,,You don't need them,,You don't need them,You don't need them,,
+19,Maximum Acceptable,,,,,EQAA 8f16x,16x,On,High,High,Ultra,On,Ultra,,Low?,Off,,,High,High,Low,Medium,Medium,Ultra,Medium,Ultra,High,On,On,On,On,On,On,,
+20,Maximum Acceptable - Notes,,,,,"Can tell 8f16x is doing the best job reducing aliasing, but does hit performance the most","Can see difference up to 8x
+Because the option is the upper bound, going to the max option makes sense","Does do a good job addressing spatial aliasing that is present, but at the cost of softening details noticably",,"Ultra does have more detail than High, but it is in Screenshot Difference territory",Ultra is definite maximum because there are some things not relfected at lower options,,"There is a difference between High and Ultra, but it is only on the car shadow and is minor popping.
+Realistically High is the maximum because you likely will never see the benefits at Ultra (save maybe when the display is large enough for this to stand out)",,"With the context of AO not appearing to have a significant image impact, Low appears to be where the largest impact is. Can see it when applying the change from Ultra Low, but even Low to Ultra (High) I cannot spot it.",,"It appears the non-Off options can control the amount of particles, but their quality when present seems the same between the options
+Meaning Low particles are fewer but appear equal to Ultra particles
+Cannot really compare between options without something like video analysis, and I'm more lazy than that is worth to me",,,"Low and above have same number it appears
+With High though they get shadows",Just not seeing the difference between Low and High for cloth,"Medium and High looked identical to me
+But, a higher resolution monitor may exposure the difference","Medium looks very good from 3rd Person
+High is better for First Person
+Ultra is still better, but near Screenshot Difference, really requires First-Person view to be worth it, and likely also high resolution display",There are cases where you will notice the poping when below Ultra,Have not spotted differences between Medium and up,Ultra does have the greatest LOD distance,"There is more coverage at High than Medium or Low, but you can definitely be happy at a lower option","But you can want them, they are nice to have in a Dirt Rally game",,But they do look good,,But they do look good,But they do look good,,
+21,My Preference,,,,,MSAA 4x,16x,Off,High,High,High,On,High,,High,On,Low,On,Low,High,Low,High,Medium,Ultra,Medium,Ultra,Medium,On,Off,On,Off,On,On,On,On

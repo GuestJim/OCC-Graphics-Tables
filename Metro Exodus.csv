@@ -1,0 +1,48 @@
+Order,Type,DirectX,Resolution,VSync,Quality,Texture Filtering,Motion Blur,Tessellation,Advanced PhysX,Hairworks,Shading Rate,Ray Trace,DLSS
+1,Option 1,DirectX 11,"1024x768, 
+1280x720, 
+1280x768, 
+1360x768, 
+1366x768",Off,Low,AF 4x,Low,Off,Off,Off,Locked when DLSS is On,Off,Off
+2,Option 2,DirectX 12,"1280x1024, 
+1600x900, 
+1400x1050, 
+1680x1050, 
+1920x1080",Half,Medium,AF 16x,Normal,On,On,On,0.4x to 4.0x by 0.1x steps,High,On
+3,Option 3,,"2560x1440, 
+3200x1800, 
+3840x2160",Full,High,,High,,,,50% to 400% in Benchmark tool,Ultra,
+4,Option 4,,,,Ultra,,,,,,,,
+5,Option 5,,,,Extreme,,,,,,,,
+6,Benchmark Preset - Low,,,,Low,AF 4x,Low,Off,Off,Off,50%,Off,Off
+7,Benchmark Preset - Normal,,,,Medium,AF 4x,Low,Full,On,Off,100%,Off,Off
+8,Benchmark Preset - High,,,,High,AF 16x,Low,Full,On,On,100%,Off,Off
+9,Benchmark Preset - Ultra,,,,Ultra,AF 16x,Normal,Full,On,On,100%,Off,Off
+10,Benchmark Preset - Extreme,,,,Extreme,AF 16x,Normal,Full,On,On,200%,Off,Off
+11,Benchmark Preset - RTX,,,,Ultra,AF 16x,Normal,Full,On,On,NA,High,On
+12,Review Settings (RX Vega 64),DirectX 11/12,2048x1152,Off,Ultra,AF 16x,Low,On,Off,Off,1x,Off,Off
+13,Minimum Acceptable,,,,Low,AF 4x,Low,Off,Off,Off,1.0x,Off,Off
+14,Minimum Acceptable - Notes,,,,"Low because it looks acceptable, but go for Medium if you can
+
+Medium has AO enabled, while Low does not appear to, and Low seems to render at a lower resolution and scale up
+
+High is where Screen Space Reflections are enabled
+
+I could see Ultra and Extreme increased the LOD distances, so there is an impact, but finding more differences is very difficult","4x is the minimum option, so it is the minimum acceptable","Low looks like it might be off, or is at least minimal
+
+Couldn't tell you difference between Normal and High, but I feel it should always be at player discretion",Unsure of what impact is,"Eyecandy
+
+Also, at least for me, the apearance of the particles, adding mass to the image, without a hole in the object producing them feels weird. (The particles look larger than the bullets)",Eyecandy,"You can see some softness when below 1, so try not to use it if you can",Does RTX Ray Tracing impact the visuals? Yes. Is it impressing me enough to need it enabled? No. Your decision though.,
+15,Maximum Acceptable,,,,Extreme,AF 16x,,On,On,On,,High,
+16,Maximum Acceptable - Notes,,,,"Can see the LOD distances are increased as we go to Extreme, but 'Quality' is opaque enough I don't know what other changes might be present
+
+It might also be possible to take something like Medium or High and just increase the Shading Rate to push the LOD back, without engaging the effects of the higher options, helping performance but it's impossible to really know right now.","Can see some impact by 16x, but probably enough noise overall to not be necessary",,"Found the difference, but minor, so not so necessary","Creates debris when you shoot the ground and gibs when you short enemies, so there is a visual impact","Honestly don't care for difference. Looking at the Watchmen, the hair looked worse than without, and the performance hit (for Vega 64) was significant
+There should be other examples of it, but will require more exploration than I did initially.","Unless used in conjunction with a lower Quality, the only reason I can think of to go above 1.0x is to eat up processing power otherwise unneeded, like going to higher framerates than you can enjoy",Can't tell you the visual difference between High and Ultra,"Personally I prefer it Off as I did spot polygon popping with it on, but you can test it and decide for yourself, hence leaving it blank"
+17,RX Vega 64 - 60 FPS Target,DirectX 12,,,Ultra,AF 16x,,On,On,,,N/A,
+18,RX 580 - 60 FPS Target,DirectX 12,,,High,AF 16x,,On,On,,,N/A,
+19,GTX 770 - 60 FPS Target,DirectX 12,,,Low,AF 16x,,On,On,,,N/A,
+20,GTX 980 - 60 FPS Target,DirectX 12,,,High,AF 16x,,On,On,,,N/A,
+21,GTX 1070 - 60 FPS Target,DirectX 12,,,Ultra,AF 16x,,On,On,,,N/A,
+22,GTX 1080 - 60 FPS Target,DirectX 12,,,Ultra,AF 16x,,On,On,,,N/A,
+23,RTX 2060 - 60 FPS Target,DirectX 12,,,Ultra,AF 16x,,On,On,,,High,
+24,RTX 2080 - 60 FPS Target,DirectX 12,,,Extreme,AF 16x,,On,On,,,Ultra,
