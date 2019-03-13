@@ -47,11 +47,3 @@ It appears High and Very High use the same detail distance levels, but Very High
 
 This seems to be the same difference between Low and Medium, though the LOD distance is smaller than High/Very High.",The difference is present,Personal Preference,"Adds a dark fade around the monitor/display edge. Really not necessary, so personal choice","Still no idea what it does, so see no reason to turn it on",The difference is visible,"Seems to control all Depth of Field, not just Bokeh effects"
 13,'High' Preset,Borderless,No,8x,Temporal SMAA,High,High,Yes,High,High,Yes,No,No,Yes,Yes,Yes
-14,RX Vega 64 - 60 FPS Target,,,16x,Temporal SMAA,Very High,Very High,Yes,Very High,Very High,Yes,Yes,Yes,Yes,Yes,Yes
-15,RX 580 - 60 FPS Target,,,16x,Temporal SMAA,Very High,Very High,Yes,Very High,Very High,Yes,No,No,Yes,Yes,Yes
-16,GTX 770 - 60 FPS Target,,,8x,FXAA,Medium,High,No,Low,Medium,No,No,No,No,No,No
-17,GTX 980 - 60 FPS Target,,,8x,Temporal SMAA,High,High,Yes,High,High,Yes,No,No,Yes,Yes,Yes
-18,GTX 1070 - 60 FPS Target,,,16x,Temporal SMAA,Very High,Very High,Yes,Very High,Very High,Yes,Yes,Yes,Yes,Yes,Yes
-19,GTX 1080 - 60 FPS Target,,,16x,Temporal SMAA,Very High,Very High,Yes,Very High,Very High,Yes,Yes,Yes,Yes,Yes,Yes
-20,RTX 2060 - 60 FPS Target,,,16x,Temporal SMAA,Very High,Very High,Yes,Very High,Very High,Yes,Yes,Yes,Yes,Yes,Yes
-21,RTX 2080 - 60 FPS Target,,,16x,Temporal SMAA,Very High,Very High,Yes,Very High,Very High,Yes,Yes,Yes,Yes,Yes,Yes
