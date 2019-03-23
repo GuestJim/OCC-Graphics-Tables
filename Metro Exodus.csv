@@ -40,7 +40,7 @@ It might also be possible to take something like Medium or High and just increas
 There should be other examples of it, but will require more exploration than I did initially.","Unless used in conjunction with a lower Quality, the only reason I can think of to go above 1.0x is to eat up processing power otherwise unneeded, like going to higher framerates than you can enjoy",Can't tell you the visual difference between High and Ultra,"Personally I prefer it Off as I did spot polygon popping with it on, but you can test it and decide for yourself, hence leaving it blank"
 17,RX Vega 64 - 60 FPS Target,DirectX 12,,,Ultra,AF 16x,,On,On,,,N/A,
 18,RX 580 - 60 FPS Target,DirectX 12,,,High,AF 16x,,On,On,,,N/A,
-19,GTX 770 - 60 FPS Target,DirectX 12,,,Low,AF 16x,,On,On,,,N/A,
+19,GTX 770 - 60 FPS Target (could not reach 60 FPS),DirectX 12,,,Low,AF 16x,,On,On,,,N/A,
 20,GTX 980 - 60 FPS Target,DirectX 12,,,High,AF 16x,,On,On,,,N/A,
 21,GTX 1070 - 60 FPS Target,DirectX 12,,,Ultra,AF 16x,,On,On,,,N/A,
 22,GTX 1080 - 60 FPS Target,DirectX 12,,,Ultra,AF 16x,,On,On,,,N/A,
