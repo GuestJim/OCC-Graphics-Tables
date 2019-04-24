@@ -10,8 +10,9 @@ Order,Type,Screen Settings,Vertical Sync,Anisotropic Level,Anti-Aliasing,Texture
 below these settings, the quality loss is too significant",,,8x,,Low,High,No,Low,Medium,No,No,No,No,No,No
 10,"Minimum Acceptable - Notes
 
-Video
-https://www.youtube.com/watch?v=uUH4mv-hUXI",,,"Even 2x makes a difference
+Videos
+https://www.youtube.com/watch?v=uUH4mv-hUXI
+https://www.youtube.com/watch?v=Gct-47T2evk",,,"Even 2x makes a difference
 
 Not seeing benefit of 16x, so 8x probably best to stop at","On
 
@@ -43,7 +44,15 @@ Found an example where it impacted presence of heat distortion"
 12,Maximum Acceptable - Notes,,,"16x does give more detail at a distance, but is still not huge difference",I know Temporal SMAA offers better than FXAA already,There is a visible difference between High and Very High. Still somewhat discretionary.,High because cannot see impact of Very High,No because still don't know what it does,"Unsure of difference between High and Very High
 
 Spotted difference, but is near Screenshot Difference level","There is a difference between High and Very High, but it is personal preference
-It appears High and Very High use the same detail distance levels, but Very High has harder edges to the shadwos than High, so if you want softer shadow edges, High is more desirable
+It appears High and Very High use the same detail distance levels, but Very High has harder edges to the shadows than High, so if you want softer shadow edges, High is more desirable
 
 This seems to be the same difference between Low and Medium, though the LOD distance is smaller than High/Very High.",The difference is present,Personal Preference,"Adds a dark fade around the monitor/display edge. Really not necessary, so personal choice","Still no idea what it does, so see no reason to turn it on",The difference is visible,"Seems to control all Depth of Field, not just Bokeh effects"
-13,'High' Preset,Borderless,No,8x,Temporal SMAA,High,High,Yes,High,High,Yes,No,No,Yes,Yes,Yes
+13,'High' Preset,Fullscreen,No,8x,Temporal SMAA,High,High,Yes,High,High,Yes,No,No,Yes,Yes,Yes
+14,RX Vega 64 - 60 FPS Target,,,16x,Temporal SMAA,Very High,Very High,Yes,Very High,Very High,Yes,Yes,Yes,Yes,Yes,Yes
+15,RX 580 - 60 FPS Target,,,16x,Temporal SMAA,Very High,Very High,Yes,Very High,Very High,Yes,No,No,Yes,Yes,Yes
+16,GTX 770 - 60 FPS Target,,,8x,FXAA,Medium,High,No,Low,Medium,No,No,No,No,No,No
+17,GTX 980 - 60 FPS Target,,,8x,Temporal SMAA,High,High,Yes,High,High,Yes,No,No,Yes,Yes,Yes
+18,GTX 1070 - 60 FPS Target,,,16x,Temporal SMAA,Very High,Very High,Yes,Very High,Very High,Yes,Yes,Yes,Yes,Yes,Yes
+19,GTX 1080 - 60 FPS Target,,,16x,Temporal SMAA,Very High,Very High,Yes,Very High,Very High,Yes,Yes,Yes,Yes,Yes,Yes
+20,RTX 2060 - 60 FPS Target,,,16x,Temporal SMAA,Very High,Very High,Yes,Very High,Very High,Yes,Yes,Yes,Yes,Yes,Yes
+21,RTX 2080 - 60 FPS Target,,,16x,Temporal SMAA,Very High,Very High,Yes,Very High,Very High,Yes,Yes,Yes,Yes,Yes,Yes
