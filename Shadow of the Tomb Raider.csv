@@ -1,21 +1,23 @@
-Order,Type,DirectX 12,Anti-Aliasing,Texture Quality,Texture Filtering,Shadow Quality,Ambient Occlusion,Depth of Field,Level of Detail,Tesselation,Bloom,Motion Blur,Screen Space Reflections,Screen Space Contact Shadows,Pure Hair,Volumetric Lighting,Lens Flares,Screen Effects
-1,Option 1,False,Off,Low,Trilinear,Off,Off,Off,Lowest,Off,Off,Off,Off,Off,Low,Off,Off,Off
-2,Option 2,True,SMAA,Normal,2x Anisotropic,Low,BTAO,Normal,Low,On,On,On,On,Normal,Normal,On,On,On
-3,Option 3,,TAA,High,4x Anisotropic,Medium,HBAO+,High,Normal,,,,,High,,,,
-4,Option 4,,SMAA T2x,Ultra,8x Anisotropic,High,,,High,,,,,,,,,
-5,Option 5,,SMAA 4x,,16x Anisotropic,Ultra,,,Ultra,,,,,,,,,
-6,Preset - Lowest,,,Low,Trilinear,Off,Off,Off,Lowest,Off,Off,Off,Off,Off,Low,Off,On,On
-7,Preset - Low,,,Low,Trilinear,Low,Off,Off,Low,Off,Off,Off,Off,Off,Low,On,On,On
-8,Preset - Medium,,,Normal,2x Anisotropic,Low,BTAO,Normal,Normal,Off,On,On,On,Off,Normal,On,On,On
-9,Preset - High,,,High,4x Anisotropic,Normal,BTAO,Normal,Normal,On,On,On,On,Off,Normal,On,On,On
-10,Preset - Highest,,,Ultra,8x Anisotropic,High,HBAO+,High,High,On,On,On,On,Normal,Normal,On,On,On
-11,Restart Required,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-12,Review Settings,True,SMAA 4x,Ultra,16x Anisotropic,Ultra,HBAO+,Off,Ultra,,On,Off,On,High,Normal,,On,
-13,Minimum Acceptable,,SMAA/None,Low,2x Anisotropic,Low,BTAO,Off,Normal,Off,Off,Off,Off,Off,Low,Off,Off,Off
-14,Minimum Acceptable - Notes,,"All options do soften detail, compared to None, but all methods also do a good job addressing aliasing too, with some doing better than others","Low but go to Normal if you can
+Order,Type,DirectX 12,Anti-Aliasing,DLSS,Texture Quality,Texture Filtering,Shadow Quality,Ray Traced Shadow Quality,Ambient Occlusion,Depth of Field,Level of Detail,Tessellation,Bloom,Motion Blur,Screen Space Reflections,Screen Space Contact Shadows,Pure Hair,Volumetric Lighting,Lens Flares,Screen Effects
+1,Option 1,False,Off,Off,Low,Trilinear,Off,Off,Off,Off,Lowest,Off,Off,Off,Off,Off,Low,Off,Off,Off
+2,Option 2,True,SMAA,Medium,Normal,2x Anisotropic,Low,Medium,BTAO,Normal,Low,On,On,On,On,Normal,Normal,On,On,On
+3,Option 3,,TAA,High,High,4x Anisotropic,Medium,High,HBAO+,High,Normal,,,,,High,,,,
+4,Option 4,,SMAA T2x,Ultra,Ultra,8x Anisotropic,High,Ultra,,,High,,,,,,,,,
+5,Option 5,,SMAA 4x,,,16x Anisotropic,Ultra,,,,Ultra,,,,,,,,,
+6,Preset - Lowest,,,,Low,Trilinear,Off,Off,Off,Off,Lowest,Off,Off,Off,Off,Off,Low,Off,,
+7,Preset - Low,,,,Low,Trilinear,Low,Off,Off,Off,Low,Off,Off,Off,Off,Off,Low,On,,
+8,Preset - Medium,,,,Normal,2x Anisotropic,Low,Off,BTAO,Normal,Normal,Off,On,On,On,Off,Normal,On,,
+9,Preset - High,,,,High,4x Anisotropic,Normal,Off,BTAO,Normal,Normal,On,On,On,On,Off,Normal,On,,
+10,Preset - Highest,,,,Ultra,8x Anisotropic,High,Off,HBAO+,High,High,On,On,On,On,Normal,Normal,On,,
+11,Restart Required,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+12,Review Settings,True,SMAA 4x,,Ultra,16x Anisotropic,Ultra,,HBAO+,Off,Ultra,,On,Off,On,High,Normal,,On,
+13,Minimum Acceptable,,SMAA/None,,Low,2x Anisotropic,Low,Medium/Off,BTAO,Off,Normal,Off,Off,Off,Off,Off,Low,Off,Off,Off
+14,Minimum Acceptable - Notes,,"All options do soften detail, compared to None, but all methods also do a good job addressing aliasing too, with some doing better than others",,"Low but go to Normal if you can
 
 Low textures in City look okay, except for ground
-Normal looks perfectly acceptable at 1152","2x Anisotropic because there is a benefit to having it over Trilinear, but Trilinear isn't horrible",You really do want shadows on,"it does help visually, gives more character to the environment. Can get away with it being off, but I would prefer it on","always a personal choice, so Off is generally the minimum","Normal because of how it transitions.
+Normal looks perfectly acceptable at 1152","2x Anisotropic because there is a benefit to having it over Trilinear, but Trilinear isn't horrible",You really do want shadows on,"Medium
+
+In some interior locations at least, Medium has a clear and significant impact. Outside this is not so much the case, likely because it is at High when the shadows from the sunlight are ray traced","it does help visually, gives more character to the environment. Can get away with it being off, but I would prefer it on","always a personal choice, so Off is generally the minimum","Normal because of how it transitions.
 Lowest is visually acceptable, but the pop-in is too apparent, as is Low
 
 In at least one location though, Normal has too close a transition for how it interacts with shadows","Don't need it on
@@ -27,10 +29,20 @@ It can have a significant impact though","Off because not strictly needed
 perfectly acceptable","Low is the lowest option, so yeah","The impact can be very apparent, so On if you can, but is not necessary","Don't need it on
 Purely personal choice","Don't need it on
 Purely personal choice"
-15,Maximum Acceptable,,SMAA T2x,High,2x Anisotropic,Normal,HBAO+,High,High,On,On,On,On,Normal,Normal,On,Off,On
-16,Maximum Acceptable - Notes,,"Based on the SSAA article, SMAA 4x does not add enough to make it worth it. SMAA, TAA, and SMAA T2x are good enough.","High is the max for 1152 (1080)
+15,Maximum Acceptable,,SMAA T2x,,High,2x Anisotropic,Normal,High,HBAO+,High,High,On,On,On,On,Normal,Normal,On,Off,On
+16,Maximum Acceptable - Notes,,"Based on the SSAA article, SMAA 4x does not add enough to make it worth it. SMAA, TAA, and SMAA T2x are good enough.",,"High is the max for 1152 (1080)
 Ultra is not immediatley noticeable in City, perhaps at 1440/2160","It might really be 4x in some areas, but the ground textures are noisy enough I don't think high levels of Anisotropic are necessary","honestly can't see how Normal is better, at least in the city
 
-found a good example, Normal adds some blurring which is nice, but not strictly necessary. Ultra adds even more, but cann't spot benefit of High to Normal","Can see the difference from BTAO, not always huge, but present so reasonable to have on","reasoning given in game. High enables it in gameplay while Normal is ""mainly for cinematics""","High because it does provide a bit of a better transition than Normal, but not necessarily a 'must have'. Ultra is better, but I doubt most will notice it","Nice to have on, does make an impact
+found a good example, Normal adds some blurring which is nice, but not strictly necessary. Ultra adds even more, but cann't spot benefit of High to Normal","High
+
+I did at times spot subtle changes between High and Ultra, but they were subtle enough to maybe be just above screenshot difference, but is still close enough that I want to keep to High","Can see the difference from BTAO, not always huge, but present so reasonable to have on","reasoning given in game. High enables it in gameplay while Normal is ""mainly for cinematics""","High because it does provide a bit of a better transition than Normal, but not necessarily a 'must have'. Ultra is better, but I doubt most will notice it","Nice to have on, does make an impact
 Purely personal choice",Really should have it on if you can,"Because it is a choice to have on, and does have an impact",On if you can because it is good to have,"Good effect to have, turn on (Normal) if you can. Cannot see impact of High",Normal is noticeably better than Low. Also the highest option,"Does make an impact, turn on if can",Honestly can't tell you the difference,"Nice to have on, does make an impact
 Purely personal choice"
+17,RX Vega 64 - 60 FPS Target,True,SMAA T2x,NA,Ultra,16x Anisotropic,Ultra,NA,HBAO+,High,Ultra,On,On,On,On,High,Normal,On,On,On
+18,RX 580 - 60 FPS Target,True,SMAA T2x,NA,High,4x Anisotropic,Normal,NA,BTAO,Normal,Normal,On,On,On,On,Off,Normal,On,Off,Off
+19,GTX 770 - 60 FPS Target,True,SMAA/None,NA,Low,2x Anisotropic,Low,NA,BTAO,Off,Normal,Off,Off,Off,Off,Off,Low,Off,Off,Off
+20,GTX 980 - 60 FPS Target,True,SMAA T2x,NA,Low,4x Anisotropic,Low,NA,BTAO,Off,Normal,Off,Off,Off,Off,Off,Low,Off,Off,Off
+21,GTX 1070 - 60 FPS Target,True,SMAA T2x,NA,Ultra,16x Anisotropic,Ultra,Medium (at High preset),HBAO+,High,Ultra,On,On,On,On,High,Normal,On,On,On
+22,GTX 1080 - 60 FPS Target,True,SMAA T2x,NA,Ultra,16x Anisotropic,Ultra,Medium (at High preset),HBAO+,High,Ultra,On,On,On,On,High,Normal,On,On,On
+23,RTX 2060 - 60 FPS Target,True,SMAA T2x,,Ultra,16x Anisotropic,Ultra,Medium (at High),HBAO+,High,Ultra,On,On,On,On,High,Normal,On,On,On
+24,RTX 2080 - 60 FPS Target,True,SMAA T2x,,Ultra,16x Anisotropic,Ultra,High (at High),HBAO+,High,Ultra,On,On,On,On,High,Normal,On,On,On
