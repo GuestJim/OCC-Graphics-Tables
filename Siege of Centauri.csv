@@ -1,0 +1,12 @@
+Order,Type,Mode,VSync,MSAA,Point Light Quality,Glare Quality,Terrain Object Quality,Shading Samples,Terrain Shading Samples,Shadow Quality,Texture Quality,Environmental FX,Cosemetic Clouds,Cosemetic Environment Maps,Min Spec Mode
+1,Option 1,Fullscreen,Off,Off,Off,Off,Off,Low,Low,Off,Mid,Off,Off,Off,Off
+2,Option 2,Borderless Window,On,2x,High,Low,Low,High,High,Low,Ultra,On,On,On,On
+3,Option 3,Windowed,,4x,,Mid,High,Ultra,Ultra,High,,,,,
+4,Option 4,,,8x,,High,Ultra,,,Ultra,,,,,
+5,Restart Required,,,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+6,Preset - Low,,,Off,Off,Off,Off,Low,Low,Off,Mid,On,Off,On,On
+7,Preset - Standard,,,Off,High,Low,Low,Low,High,High,High,On,Off,On,Off
+8,Preset - High,,,2x,High,Low,High,High,High,High,High,On,Off,On,Off
+9,Preset - Extreme,,,4x,High,High,High,Ultra,High,High,High,On,Off,On,Off
+10,Preset - Crazy,,,8x,High,High,High,Ultra,Ultra,High,High,On,Off,On,Off
+11,Review Configuration,Borderless Window,Off,2x,High,Low,High,High,High,High,High,On,Off,On,Off
