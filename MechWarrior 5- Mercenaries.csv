@@ -1,0 +1,42 @@
+Order,Type,Screen Mode,VSync,Smooth Frame Rate,Mech Cockpit Field of View,Mech Third Person Field of View,Resolution Scale,View Distance Quality,Effects Quality,Shadow Quality,Textures Quality,Foliage,Post Processing Quality,Anti-Aliasing Quality,Anisotropy Quality,Sharpening
+1,Option 1,Fullscreen,No,No,60-120,60-120,31-100,Near,Low,Low,Low,Low,Low,Low,0x,Off
+2,Option 2,Borderless Windowed,Yes,Yes,Step of 1,Step of 1,Step of 1,Medium,Medium,Medium,Medium,Medium,Medium,Medium,2x,On
+3,Option 3,Windowed,,,Default: 90,Default: 90,Default: 87,Far,High,High,High,High,High,High,4x,
+4,Option 4,,,,,,,Maximum,Maximum,Maximum,Maximum,Maximum,Maximum,Maximum,8x,
+5,Option 5,,,,,,,,,,,,,,16x,
+6,Restart Required,,,,,,,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+7,Review Settings,Borderless Windowed,No,No,90,90,100,Maximum,High,High,High,Medium,High,High,16x,On
+8,Minimum Acceptable,,,,,,,Low,Low/Medium,Low,,Low,,High,4x,
+9,Minimum Acceptable - Notes,,,,,,,"(Was bugged, fixed prior to release)
+Things like mountains and structures are still present at Low, but the small rocks decorating the ground and some larger rocks even, and some destructibles on top of strucutres (like antennas) will be missing on Low until you get close enough.
+Still, I feel like Low is acceptable as the big stuff is still there and looks fine.","Definitely covers particle effects
+
+Before seeing something getting shot, Low looks fine but is clearly missing effects
+Medium has these effects but turned down, making it better
+
+Low/Medium: Low still looks good but Medium does add to it, so use it if you can, but Low is still good looking.","Low appears to turn off shadows
+Cannot see Medium and Maximum begin different
+
+Low wins Minimum because it is not bad for gameplay for shadows to be missing",Have not spotted difference yet,"On Low there is less of the misc. objects around the ground, like ice debris and others, but the small rock/pebble things are present.
+Feeling like Low is acceptable
+On a Forest map (above was Snow map) the trees remain at Low, but the grass, shrubs, and rocks are gone.
+
+It appears foliage covers things like grass and tree quality, but also anything that is a physics object but when destroyed is removed, instead of leaving some ruin","No idea what the difference is
+
+Upon close inspection of mech leg in dropship, it appears Ambient Occlusion is controlled by this, but can't say I care about it given the normal perspective for gameplay (in cockpit or over the mech shoulder)","There is clear temporal aliasing at Low (assuming Off) and Medium does not address this. High does address this and Maximum too.
+Medium and up does soften details that Low preserves","4x does look markedly better than 2x, which I am struggling to see its improvement over 0x",
+10,Maximum Acceptable,,,,,,,Maximum,High,Medium,,High,,Maximum,16x,
+11,Maximum Acceptable - Notes,,,,,,,"There are clear levels between all options, making Maximum the best of them.
+However, I feel Medium and Far both do a good job making Maximum, though better, not so strongly necessary.","High beats Medium because a flash from the PPC on Medium looks worse than on High (saw tearing in there on Medium but not on High).
+
+Maximum did appear to have additional effects (for the PPC) over High, but cannot see it anymore, so going to High as the MAQ
+
+Maximum does have more effects than high (with PPC see some extra warping) so there is a difference between it and High, but High I consider still acceptable","I cannot see the difference between Medium and High (at present)
+Maximum too does not add anything noticeable",,"Medium on Forest maps shows grass (Low does not)
+High shows more grass than Medium
+
+Maximum did seem to be better for reason stated below, but after checking again, not seeing that reason being true any more, so High is MAQ
+
+
+Maximum has better LOD than High (trees in distance were more detailed without zooming on Maximum than on High, and the difference between levels on High were significant and obvious)",,"On High there can be very clear ghosting, but Maximum does not suffer from this","16x does have more detail than 8x in the textures, earning it Maximum AQ.
+Given the angle you will see the world at so much, it makes sense to have this turned up",

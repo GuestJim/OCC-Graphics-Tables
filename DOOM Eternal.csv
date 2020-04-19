@@ -1,0 +1,20 @@
+Order,Type,Window Mode,Aspect Ratio,Vertical Sync,Enable HDR,Field of View,Motion Blur,Loot Drop Brightness,Performance Metrics,Colorblind Rendering Mode,Texture Pool Size,Shadow Quality,Reflections Quality,Motion Blur Quality,Directional Occlusion,Lights Quality,Particles Quality,Decal Quality,Water Quality,Volumetrics Quality,Texture Filtering Quality,Geometric Quality,Chromatic Aberration,Sharpening,Film Grain,Resolution Scaling Mode,Resolution Scale,Resolution Scaling Target FPS,Depth of Field,Depth of Field Anti-Aliasing
+1,Option 1,Windowed,3:2,Adaptive,Off,90 (Default),Off,100 (Default),Off,Off,Low,Low,Off,Low,Off,Low,Low,Low,Low,Low,Low,Low,Off,33 (Default),25 (Default),Off,100,60 (Default),Off,Off
+2,Option 2,Fullscreen,4:3,Off,On,120,Low,0 (Min),Low,Protanopia,Medium,Medium,Low,Medium,Low,Medium,Medium,Medium,Medium,Medium,Medium,Medium,On,0 (Min),0 (Min),Static,50 (Min),60 (Min),On,On
+3,Option 3,Borderless Windowed,5:4,On,,Step: 1,Medium,100 (Max),Medium,Deuteranopia,High,High,Medium,High,Medium,High,High,High,High,High,High,High,,100 (Max),100 (Max),Dynamic,100 (Max),1000 (Max),,
+4,Option 4,,16:9,Triple Buffering,,,High,Step: 1,High,Tritanopia,Ultra,Ultra,High,Ultra,High,Ultra,Ultra,Ultra,Ultra,Ultra,Ultra,Ultra,,Step: 1,Step: 1,,Step: 2,Step: 1,,
+5,Option 5,,16:10,,,,Ultra,,Ultra,,Nightmare,Nightmare,Ultra,Nightmare,Ultra,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,,,,,,,,
+6,Option 6,,,,,,Nightmare,,Nightmare,,Ultra Nightmare,Ultra Nightmare,Nightmare,Ultra Nightmare,Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,,,,,,,,
+7,Option 7,,,,,,Ultra Nightmare,,Ultra Nightmare,,,,Ultra Nightmare,,Ultra Nightmare,,,,,,,,,,,,,,,
+8,Preset - Low,,,,,,,,,,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,,,,,,,,
+9,Preset - Medium,,,,,,,,,,Medium,Medium,Medium,Medium,Medium,Medium,Medium,Medium,Medium,Medium,Medium,Medium,,,,,,,,
+10,Preset - High,,,,,,,,,,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,
+11,Preset - Ultra,,,,,,,,,,Ultra,Ultra,Ultra,Ultra,Ultra,Ultra,Ultra,Ultra,Ultra,Ultra,Ultra,Ultra,,,,,,,,
+12,Preset - Nightmare,,,,,,,,,,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,,,,,,,,
+13,Preset - Ultra Nightmare,,,,,,,,,,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,,,,,,,,
+14,Review Settings,Windowed,16:9,Triple Buffering,Off,100,Off,100,Off,Off,Ultra Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Off,33,0,Off,NA,NA,Off,NA
+15,Minimum Acceptable,,,,,,,,,,Low (Recommend High),Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,,,,Off,,,Off,
+16,Minimum Acceptable - Notes,"Low is the Minimum Acceptable, but recommend High until further investigation.
+The UI is softer on Low but not on High, so try to find the specific setting that is causing this",,,,,,,,,"Low is technically acceptable, but if you can go to High, do so. I noticed a softness to the UI (specifically the crosshairs) on any option below High, so to avoid that, since it is always up on the screen, I recommend High.",,,,,,,,,,,,,,,,,,,
+17,Maximum Acceptable,,,,,,,,,,,,,,,,,,,,High,,,,,,,,,
+18,Maximum Acceptable - Notes,,,,,,,,,,,,,,,,,,,,"Can spot differences between Low, Medium, High near start of Exultia. Cannot see Ultra and above improving things, but that might not mean much. This could use Anisotropic Filtering which is an upper limit, not a fixed use so those higher options might be useful in other locations.",,,,,,,,,

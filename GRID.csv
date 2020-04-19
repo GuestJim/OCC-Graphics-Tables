@@ -1,0 +1,12 @@
+Order,Type,Display Mode,Max FPS,Vertical Sync,Lighting Quality,Anti-Aliasing,Post Process,Texture Quality,Shadows,Smoke Shadows,Particles,Vehicle Reflections,Crowds,Mirrors,Ambient Occlusion,Weather Effects,Ground Cover,Skid Marks
+1,Option 1,Windowed,30,Disabled,Low,Off,Low,Low,Low,Off,Off,Ultra Low,Off,Low,Off,Low,Low,Off
+2,Option 2,Fullscreen,60,Enabled,Medium,TAA,Medium,High,Medium,Low,Low,Low,Low,Medium,On,Medium,Medium,Low
+3,Option 3,Windowed Fullscreen,120,,High,,High,Ultra High,High,High,Medium,Medium,Medium,High,High,High,High,High
+4,Option 4,,144,,,,,,Ultra High,,High,High,High,Ultra High,,Ultra High,Ultra High,
+5,Option 5,,Off,,,,,,,,,Ultra High,,,,,,
+6,Preset - Ultra Low,,,,Low,Off,Low,Low,Low,Off,Off,Ultra Low,Off,Low,Off,Low,Low,Off
+7,Preset - Low,,,,Low,Off,Low,Low,Low,Low,Low,Low,Low,Low,Off,Low,Low,Off
+8,Preset - Medium,,,,Medium,TAA,Medium,Low,Medium,Low,Medium,Medium,Medium,Medium,Off,Medium,Medium,Low
+9,Preset - High,,,,High,TAA,High,High,High,High,High,High,High,High,On,High,High,High
+10,Preset - Ultra High,,,,High,TAA,High,Ultra High,Ultra High,High,High,Ultra High,High,Ultra High,High,Ultra High,Ultra High,High
+11,Review Configuration,Windowed Fullscreen,Off,Enabled,High,TAA,High,High,High,High,High,High,High,High,On,High,High,High

@@ -1,0 +1,8 @@
+Order,Type,Texture Quality,Window Mode,Screen Resolution,Resolution Scale,Anti-Aliasing,Vertical Sync,FPS Limit
+1,Option 1,128 textures and smaller,Windowed,,0.15,Off,Off,requires V-Sync Off
+2,Option 2,256 textures and smaller,Maximized Window,,0.05 Steps,Medium (TAA),On,
+3,Option 3,512 textures and smaller,Fullscreen,,,High SSAA 2x,,
+4,Option 4,1k textures and smaller,,,,Very High SSAA 3x,,
+5,Option 5,2k textures and smaller,,,,Extremely High SSAA 4x,,
+6,Option 6,Full quality textures,,,1.00,,,
+7,Review Configuration,Full quality textures,Maximized Window,2048x1152,1.00,Medium (TAA),On,

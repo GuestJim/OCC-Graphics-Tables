@@ -1,0 +1,40 @@
+Order,Type,Window Mode,VSync,Refresh Rate,Resolution Scaling,Temporal Injection,Anti-Aliasing,Foreground Framelock,Framerate Limit,Background Framelock,Background Framerate Limit,Extended FOV,Sharpening,Sharpening Intensity,Ambient Occlusion,Level Of Detail,Texture Quality,Anisotropic Filtering,Screen Space Shadows,Terrain Quality,Grass Quality,Screen Space Reflections,Sun Shadows,Cloth Simulation Quality,Motion Blur,Bloom,Subsurface Scattering,Long Range Shadows,Volumetric Fog,Fog Background Blur
+1,Option 1,Windowed,Off,,100 (Default),Off,Off,Off,60 (Default),Off,60,0 (Default),Off,50 (Default),Disabled,Low,Low,Off,Off,Low,Low,Low,Low,Low,Off,Off,Off,Low,Low,Off
+2,Option 2,Borderless,On,,50 (Min),On,On,On,20 (Min),On,20 (Min),100 (Max),FidelityFX CAS,0 (Min),Medium,Medium,Medium,2,On,Medium,Medium,Medium,Medium,Medium,On,On,High,High,Medium,On
+3,Option 3,Fullscreen,,,200 (Max),,,,160 (Max),,160 (Max),Step: 1,,100 (Max),High,High,High,4,,High,High,High,High,High,,,Very High,Ultimate,High,
+4,Option 4,,,,Step: 10,,,,Step: 1,,Step: 1,,,Step: 10,Very High,Very High,Very High,8,,Very High,Very High,Very High,Very High,,,,,,Very High,
+5,Option 5,,,,,,,,,,,,,,Ultra,Ultra,Ultra,16,,Ultra,Ultra,,Ultra,,,,,,Ultra,
+6,Preset - Low,,,,,,,,,,,,,,Disabled,Low,Low,Off,Off,Low,Low,Low,Low,Low,Off,Off,Off,Low,Low,On
+7,Preset - Medium,,,,,,,,,,,,,,Medium,Medium,Medium,2,On,Medium,Medium,Medium,Medium,Medium,On,On,Off,Low,Medium,On
+8,Preset - High,,,,,,,,,,,,,,High,High,High,4,On,High,High,High,High,High,On,On,High,High,High,On
+9,Preset - Very High,,,,,,,,,,,,,,Very High,Very High,Very High,8,On,Very High,Very High,Very High,Very High,High,On,On,Very High,High,Very High,On
+10,Preset - Ultra,,,,,,,,,,,,,,Ultra,Ultra,Ultra,16,On,Ultra,Ultra,Very High,Ultra,High,On,On,Very High,High,Ultra,On
+11,Review Settings,Borderless,,,100,On,On,Off,,On,30,0,FidelityFX CAS,50,High,High,Ultra,16,On,High,High,High,High,High,Off,On,High,High,High,On
+12,Minimum Acceptable,,,,80,Off,Off,,,,,,Off,0,Medium,Low,Low,4,Off,Medium,Low,Low,Low/High,,,,Off,,,
+13,Minimum Acceptable - Notes,,,,"80 with 30% Sharpening looks good
+90 without Sharpening looks good to the point I couldn't tell you it wasn't 100
+70 with 50+ Sharpening at a distance (like my television) would be acceptable",The impact is hard to see so Off is minimum,"Off results in a lot of visible aliasing, but the image is definitely sharper
+Off with 110 Resolution Scaling looks quite good. A lot of the aliasing on Nomad was gone, but does hurt performance",,,,,,"At first analysis, the impact can be seen, but is not that significant at the Review Settings",See Resolution Scaling and Anti-Aliasing notes,A lot of shadows are coming from the AO system (at least outside in the day) so you definitely want it on,honestly cannot tell you the difference it makes,"If you have to do Low, you can
+Medium is significantly better",,"There is an impact, but you can live with them Off","It appears to control the terrain texture quality
+the texture quality is clearly better on Medium than Low
+at High things like footprints in the snow is added, so recommend High
+
+
+Based on the VRAM usage numbers in-game menu, Low, Medium-High, Very High, and Ultra are texture quality steps
+the Medium and High step is the visual effect of footprints, at the least","It appears the options influence density, but not the specific quality of the vegetation I am looking at
+this makes Low a comfortable minimum","The differences between the options are hard for me to spot, so Low and not bothering with a maximum","Low still has the shadows so it doesn't fail
+High has better thickness to shadows of thin objects
+Couldn't tell you difference between Low and Medium, and then High and Very High",,Personal Choice,Personal Choice,"If there is a difference in gameplay, it is hard to spot, so Off for minimum
+I do feel you can probably safely have it off",Couldn't tell you the difference it makes,,Couldn't tell you there's a difference
+14,Maximum Acceptable,,,,,Off,On,,,,,,FidelityFX CAS,,Very High,,,16,On,Ultra,Very High,,Ultra,,,,,,,
+15,Maximum Acceptable - Notes,,,,,"The impact is hard to see even when On, so it is Off.
+At 90% resolution scale, it actually made the image look softer","It does help remove aliasing, but does soften the image some and does miss some aliasing too
+Sharpening (50) does help return some of the details softened away by the AA",,,,,,,,"Medium and High appear to use one method
+Very High and Ultra appear to use a different method
+these different methods can be obvious between each other, but the differences within the methods are harder to spot",,,,Have noticed a shadow artifact that is related to this setting,"Can see a difference between Very High and Ultra
+it is detail in snow that I am spotting
+it is a small difference, but I am seeing it at 2048x1152, so a higher resolution display might show it better
+
+between High and Very High, you can also spot differences between the textures details, in some but not all locations","Can't spot difference between Very High and Ultra
+Can see difference between High and Very High (Very High is much denser)",,"Very clear improvement on Ultra
+Ultra defintiely has the highest resolution to the shadows",,,,Skipping maximum as it might be apparent in close-ups during conversations,,,
