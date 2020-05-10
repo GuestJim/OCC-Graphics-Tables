@@ -1,13 +1,14 @@
-Order,Type,Screen Mode,VSync,Smooth Frame Rate,Mech Cockpit Field of View,Mech Third Person Field of View,Resolution Scale,View Distance Quality,Effects Quality,Shadow Quality,Textures Quality,Foliage,Post Processing Quality,Anti-Aliasing Quality,Anisotropy Quality,Sharpening
-1,Option 1,Fullscreen,No,No,60-120,60-120,31-100,Near,Low,Low,Low,Low,Low,Low,0x,Off
-2,Option 2,Borderless Windowed,Yes,Yes,Step of 1,Step of 1,Step of 1,Medium,Medium,Medium,Medium,Medium,Medium,Medium,2x,On
-3,Option 3,Windowed,,,Default: 90,Default: 90,Default: 87,Far,High,High,High,High,High,High,4x,
-4,Option 4,,,,,,,Maximum,Maximum,Maximum,Maximum,Maximum,Maximum,Maximum,8x,
-5,Option 5,,,,,,,,,,,,,,16x,
-6,Restart Required,,,,,,,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
-7,Review Settings,Borderless Windowed,No,No,90,90,100,Maximum,High,High,High,Medium,High,High,16x,On
-8,Minimum Acceptable,,,,,,,Low,Low/Medium,Low,,Low,,High,4x,
-9,Minimum Acceptable - Notes,,,,,,,"(Was bugged, fixed prior to release)
+Order,Type,Screen Mode,VSync,Smooth Frame Rate,DLSS,Mech Cockpit Field of View,Mech Third Person Field of View,Resolution Scale,View Distance Quality,Effects Quality,Shadow Quality,Textures Quality,Foliage,Post Processing Quality,Anti-Aliasing Mode,Anti-Aliasing Quality,Anisotropy Quality,FidelityFX Sharpening,RTX Ray Tracing,Raytraced Shadows,Raytraced Reflections
+1,Option 1,Fullscreen,No,No,Off,60-120,60-120,31-100,Near,Low,Low,Low,Low,Low,Off,Low,0x,Off,Off,Off,Off
+2,Option 2,Borderless Windowed,Yes,Yes,Performance,Step of 1,Step of 1,Step of 1,Medium,Medium,Medium,Medium,Medium,Medium,FXAA,Medium,2x,On,On,On,On
+3,Option 3,Windowed,,,Balanced,Default: 90,Default: 90,Default: 100,Far,High,High,High,High,High,TXAA,High,4x,,,High,High
+4,Option 4,,,,Quality,,,,Maximum,Maximum,Maximum,Maximum,Maximum,Maximum,,Maximum,8x,,,Maximum,Maximum
+5,Option 5,,,,,,,,,,,,,,,,16x,,,,
+6,Restart Required,,,,,,,,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+7,Review Settings,Borderless Windowed,No,No,,90,90,100,Maximum,High,High,High,Medium,High,,High,16x,On,,,
+8,Minimum Acceptable,,,,Off,,,,Near,Low/Medium,Low,,Low,,Off,High,4x,Off,Off,Off,Off
+9,Minimum Acceptable - Notes,,,,"DLSS is actually doing a good job, even at Performance
+I am quite impressed by it here, at least in the hangar",,,,"(Was bugged, fixed prior to release)
 Things like mountains and structures are still present at Low, but the small rocks decorating the ground and some larger rocks even, and some destructibles on top of strucutres (like antennas) will be missing on Low until you get close enough.
 Still, I feel like Low is acceptable as the big stuff is still there and looks fine.","Definitely covers particle effects
 
@@ -23,10 +24,18 @@ On a Forest map (above was Snow map) the trees remain at Low, but the grass, shr
 
 It appears foliage covers things like grass and tree quality, but also anything that is a physics object but when destroyed is removed, instead of leaving some ruin","No idea what the difference is
 
-Upon close inspection of mech leg in dropship, it appears Ambient Occlusion is controlled by this, but can't say I care about it given the normal perspective for gameplay (in cockpit or over the mech shoulder)","There is clear temporal aliasing at Low (assuming Off) and Medium does not address this. High does address this and Maximum too.
-Medium and up does soften details that Low preserves","4x does look markedly better than 2x, which I am struggling to see its improvement over 0x",
-10,Maximum Acceptable,,,,,,,Maximum,High,Medium,,High,,Maximum,16x,
-11,Maximum Acceptable - Notes,,,,,,,"There are clear levels between all options, making Maximum the best of them.
+Upon close inspection of mech leg in dropship, it appears Ambient Occlusion is controlled by this, but can't say I care about it given the normal perspective for gameplay (in cockpit or over the mech shoulder)",Just do not want to use FXAA. It very noticeably softens the image,"There is clear temporal aliasing at Low (assuming Off) and Medium does not address this. High does address this and Maximum too.
+Medium and up does soften details that Low preserves
+
+2020-04-21 Update
+With TXAA, Medium does not address all of the aliasing
+High does address the aliasing, but does suffer from ghosting","4x does look markedly better than 2x, which I am struggling to see its improvement over 0x","It is your choice if you want to use it, but it definitely succeeds at sharpening the image and compliments the softening of the AA options well.",,"Not really needed and actually inaccurate. The scenes can be completely overcast but we still get sharp-edged shadows, but when overcast if there are shadows, they should be soft.",Not really needed
+10,Maximum Acceptable,,,,On,,,,Maximum,High,Medium,,High,,TXAA,Maximum,16x,On,,On,Off
+11,Maximum Acceptable - Notes,,,,"When examining a Mech foot closely, Scaling at 66 with TXAA Maximum, and FidelityFX looked comparable to DLSS Quality
+
+Cannot spot differences between Performance, Balanced, and Quality (in Hangar). Could be a resolution thing (as in need above 1080 to notice)
+Did notice when firing the PPC, the effect of the shot is noticeably different with DLSS enabled. There is a loss of bloom around the bolt, which is there at full resolution and even when scaled to 66
+The Medium Lasers are also impacted by using DLSS. They lose the speckling with DLSS on that is there otherwise (even on Quality)",,,,"There are clear levels between all options, making Maximum the best of them.
 However, I feel Medium and Far both do a good job making Maximum, though better, not so strongly necessary.","High beats Medium because a flash from the PPC on Medium looks worse than on High (saw tearing in there on Medium but not on High).
 
 Maximum did appear to have additional effects (for the PPC) over High, but cannot see it anymore, so going to High as the MAQ
@@ -38,5 +47,19 @@ High shows more grass than Medium
 Maximum did seem to be better for reason stated below, but after checking again, not seeing that reason being true any more, so High is MAQ
 
 
-Maximum has better LOD than High (trees in distance were more detailed without zooming on Maximum than on High, and the difference between levels on High were significant and obvious)",,"On High there can be very clear ghosting, but Maximum does not suffer from this","16x does have more detail than 8x in the textures, earning it Maximum AQ.
-Given the angle you will see the world at so much, it makes sense to have this turned up",
+Maximum has better LOD than High (trees in distance were more detailed without zooming on Maximum than on High, and the difference between levels on High were significant and obvious)",,TXAA does address the aliasing and does not soften too badly,"On High there can be very clear ghosting, but Maximum does not suffer from this
+
+2020-04-21 Update
+Maximum does suffer from ghosting, but I feel it is still better than High, even if not by much","16x does have more detail than 8x in the textures, earning it Maximum AQ.
+Given the angle you will see the world at so much, it makes sense to have this turned up",,,"The mech's shadows are clearly sharper when On, but cannot see improvements from High and Maximum","I honestly don't see the purpose to the reflections here. Not that much reflects with enough detail to warrant this
+
+Spotted some reflections on the shoulder of my Orion, so you can see them on the mechs, but at 10 m is where I could really tell something. From a more reasonable 46 m, the difference is hardly worthwhile."
+12,High Preset,,,,Off,,,100,Far,High,High,High,High,High,TXAA,High,16x,On,Off,Off,Off
+13,RX 580 - 60 FPS Target,,,,,,,70,Far,High,Medium,High,Medium,Medium,TXAA,Maximum,16x,On,,,
+14,RX Vega 64 - 60 FPS Target,,,,,,,100,Maximum,Maximum,Maximum,Maximum,Maximum,Maximum,TXAA,Maximum,16x,On,,,
+15,GTX 770 - 60 FPS Target (could not reach 60 FPS),,,,,,,70,Far,High,Medium,High,Medium,Medium,TXAA,Maximum,16x,On,,,
+16,GTX 980 - 60 FPS Target,,,,,,,100,Maximum,Maximum,Maximum,Maximum,Maximum,Maximum,TXAA,Maximum,16x,On,,,
+17,GTX 1070 - 60 FPS Target,,,,,,,100,Maximum,Maximum,Maximum,Maximum,Maximum,Maximum,TXAA,Maximum,16x,On,Off,,
+18,GTX 1080 - 60 FPS Target,,,,,,,100,Maximum,Maximum,Maximum,Maximum,Maximum,Maximum,TXAA,Maximum,16x,On,Off,,
+19,RTX 2060 - 60 FPS Target,,,,,,,100,Maximum,Maximum,Maximum,Maximum,Maximum,Maximum,TXAA,Maximum,16x,On,Off,,
+20,RTX 2080 - 60 FPS Target,,,,,,,100,Maximum,Maximum,Maximum,Maximum,Maximum,Maximum,TXAA,Maximum,16x,On,Off,,

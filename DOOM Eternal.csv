@@ -13,8 +13,22 @@ Order,Type,Window Mode,Aspect Ratio,Vertical Sync,Enable HDR,Field of View,Motio
 12,Preset - Nightmare,,,,,,,,,,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,,,,,,,,
 13,Preset - Ultra Nightmare,,,,,,,,,,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,,,,,,,,
 14,Review Settings,Windowed,16:9,Triple Buffering,Off,100,Off,100,Off,Off,Ultra Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Nightmare,Off,33,0,Off,NA,NA,Off,NA
-15,Minimum Acceptable,,,,,,,,,,Low (Recommend High),Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,,,,Off,,,Off,
+15,Minimum Acceptable,,,,,,,,,,Low (Recommend High),Low,Low,,Low,Low,Low,Low,Low,Low,Low,Low,,,,Off,,,Off,
 16,Minimum Acceptable - Notes,"Low is the Minimum Acceptable, but recommend High until further investigation.
-The UI is softer on Low but not on High, so try to find the specific setting that is causing this",,,,,,,,,"Low is technically acceptable, but if you can go to High, do so. I noticed a softness to the UI (specifically the crosshairs) on any option below High, so to avoid that, since it is always up on the screen, I recommend High.",,,,,,,,,,,,,,,,,,,
-17,Maximum Acceptable,,,,,,,,,,,,,,,,,,,,High,,,,,,,,,
-18,Maximum Acceptable - Notes,,,,,,,,,,,,,,,,,,,,"Can spot differences between Low, Medium, High near start of Exultia. Cannot see Ultra and above improving things, but that might not mean much. This could use Anisotropic Filtering which is an upper limit, not a fixed use so those higher options might be useful in other locations.",,,,,,,,,
+The UI is softer on Low but not on High, so try to find the specific setting that is causing this",,,,,,,,,"Low is technically acceptable, but if you can go to High, do so. I noticed a softness to the UI (specifically the crosshairs) on any option below High, so to avoid that, since it is always up on the screen, I recommend High.","Finally spotted a difference between Low and Ultra Nightmare
+Low seems to have a lower shadow resolution, allowing for some polygon popping, but it isn't that bad/noticeable
+Medium has a better resolution and while I think the polygon popping is still there, I am not completely confident
+","Found some reflections in the Fortress of Doom for testing
+They are not there when Off but could not spot any differences between Low and Ultra Nightmare","I'm not familiar enough with Motion Blur, preferring it off always, that I cannot render an opinion on it","When Off objects can seem to be just plopped on the ground without consideration for lighting at the interface
+At Low this is addressed, as the effect is enabled, but could not spot difference with Ultra Nightmare",,,,,,,,,,,,,,,
+17,Maximum Acceptable,,,,,,,,,,,High,,,,,,,,,High,,,,,,,,,
+18,Maximum Acceptable - Notes,,,,,,,,,,,"Can't spot difference between High and Ultra Nightmare
+might be a display resolution thing",,,,,,,,,"Can spot differences between Low, Medium, High near start of Exultia. Cannot see Ultra and above improving things, but that might not mean much. This could use Anisotropic Filtering which is an upper limit, not a fixed use so those higher options might be useful in other locations.",,,,,,,,,
+19,RX 580 - 60 FPS Target,,,,,,,,,,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,
+20,RX Vega 64 - 60 FPS Target,,,,,,,,,,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,,,,,,,,
+21,GTX 770 - 60 FPS Target (could not reach 60 FPS),,,,,,,,,,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,Low,,,,Static,50,,,
+22,GTX 980 - 60 FPS Target,,,,,,,,,,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,
+23,GTX 1070 - 60 FPS Target,,,,,,,,,,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,,,,,,,,
+24,GTX 1080 - 60 FPS Target,,,,,,,,,,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,,,,,,,,
+25,RTX 2060 - 60 FPS Target,,,,,,,,,,Ultra,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,,33,0,Off,,,Off,
+26,RTX 2080 - 60 FPS Target,,,,,,,,,,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,Ultra Nightmare,,,,,,,,
