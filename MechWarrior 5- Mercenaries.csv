@@ -4,7 +4,7 @@ Order,Type,Screen Mode,VSync,Smooth Frame Rate,DLSS,Mech Cockpit Field of View,M
 3,Option 3,Windowed,,,Balanced,Default: 90,Default: 90,Default: 100,Far,High,High,High,High,High,TXAA,High,4x,,,High,High
 4,Option 4,,,,Quality,,,,Maximum,Maximum,Maximum,Maximum,Maximum,Maximum,,Maximum,8x,,,Maximum,Maximum
 5,Option 5,,,,,,,,,,,,,,,,16x,,,,
-6,Restart Required,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+6,Restart Required,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
 7,Review Settings,Borderless Windowed,No,No,,90,90,100,Maximum,High,High,High,Medium,High,,High,16x,On,,,
 8,Minimum Acceptable,,,,Off,,,70,Near,Low/Medium,Low,,Low,,Off,High,4x,Off,Off,Off,Off
 9,Minimum Acceptable - Notes,,,,"DLSS is actually doing a good job, even at Performance
