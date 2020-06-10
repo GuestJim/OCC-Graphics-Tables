@@ -1,0 +1,30 @@
+Order,Type,Display Mode,Anti-Aliasing,Filter Mode,Scene Detail,Shadow Detail,Screen Space Reflections,Ambient Occlusion,Film Grain,Motion Blur,Depth of Field,Volumetric Fog,V-Sync (Gameplay),Sharpening
+1,Option 1,Fullscreen,Off,Trilinear,Low,Low,No,Off,No,No,Off,Off,No,0 (Default)
+2,Option 2,Windowed,FXAA,Anisotropic 2x,Medium,Medium,Yes,Low,Yes,Yes,Low,Low,Yes,100
+3,Option 3,,TAA,Anisotropic 4x,High,High,,Medium,,,Medium,Medium,,Step: 5
+4,Option 4,,,Anisotropic 8x,,,,High,,,High,High,,
+5,Option 5,,,Anisotropic 16x,,,,,,,,,,
+6,Preset - Low,,Off,Anisotropic 2x,Low,Low,No,Off,No,No,Off,Low,No,
+7,Preset - Medium,,TAA,Anisotropic 4x,Medium,Medium,No,Medium,No,No,Low,Low,No,
+8,Preset - High,,TAA,Anisotropic 8x,High,Medium,Yes,Medium,Yes,Yes,Medium,Medium,Yes,
+9,Preset - Ultra,,TAA,Anisotropic 16x,High,High,Yes,High,Yes,Yes,High,High,Yes,
+10,Review Settings,Windowed,TAA,Anisotropic 16x,High,High,Yes,High,No,No,High,High,No,0
+11,Minimum Acceptable,,TAA,Anisotropic 4x,Low,Low,No,Off,,No,Off,Low,,0
+12,Minimum Acceptable - Notes,,"There is clear aliasing at Off, enough of it is temporal that FXAA doesn't help so TAA it must be, if you want any in-game AA
+Unfortunately, TAA does introduce ghosting and does soften the image some. So your choice is aliasing or no aliasing with these artifacts.","4x has a clear impact, improving over 2x","Finally spotted a difference that I consider minor, so Low is the minimum","Low does not disable shadows, so it is acceptable
+However its resolution is low enough for aliasing to be clear on the shadows.
+Medium is noticeably better
+High is also noticeably better than Medium, but you can still see some.","There is a visual impact from turning on, as now cars can be seen in puddles, but there is some noise to these reflections, and the possibility of some aliasing, so while Yes is the Maximum, it's really up to the player","Off for the Minimum because the normal shadows cover a lot already so you can get away without AO
+But, go to Low if you can.",,,"Off is Minimum because DOF is something I feel is personal choice to begin with.
+It only appears to impact when zooming in with a weapon.",do NOT turn this Off,,"It does sharpen but when combined with TAA it produces enough of a contrast between TAA's softening during motion and when still that you can see the inconsistency, so recommend keeping off."
+13,Maximum Acceptable,,,Anisotropic 16x,High,High,Yes,High,,No,High,,,
+14,Maximum Acceptable - Notes,,,,Medium looks better than Low and High looks better than Medium. With High we get more foliage appearing at a greater distance,High is noticeably better than Medium and it is a positive impact,,High definitely has a visual impact and is better than Medium,,"When in the tank, I noticed a jitter to the blur of a symbol on its hatch, which is not what I want to see with blur enabled, hence why I recommend it being off.
+(Patch could improve)","High is the maximum as it appears the samples used for the blur filter are greater than at Low and Medium. Basically, I can see aliasing within the blur at Low and while Medium is better I feel High is best",,,
+15,RX 580 - 60 FPS Target,,TAA,Anisotropic 16x,High,High,Yes,High,Yes,Yes,High,High,,
+16,RX Vega 64 - 60 FPS Target,,TAA,Anisotropic 16x,High,High,Yes,High,Yes,Yes,High,High,,
+17,GTX 770 - 60 FPS Target,,TAA,Anisotropic 4x,Low,Low,No,Off,No,No,Off,Low,,
+18,GTX 980 - 60 FPS Target,,TAA,Anisotropic 16x,High,High,Yes,High,Yes,Yes,High,High,,
+19,GTX 1070 - 60 FPS Target,,TAA,Anisotropic 16x,High,High,Yes,High,Yes,Yes,High,High,,
+20,GTX 1080 - 60 FPS Target,,TAA,Anisotropic 16x,High,High,Yes,High,Yes,Yes,High,High,,
+21,RTX 2060 - 60 FPS Target,,TAA,Anisotropic 16x,High,High,Yes,High,Yes,Yes,High,High,,
+22,RTX 2080 - 60 FPS Target,,TAA,Anisotropic 16x,High,High,Yes,High,Yes,Yes,High,High,,
