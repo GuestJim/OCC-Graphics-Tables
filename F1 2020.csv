@@ -1,0 +1,32 @@
+Order,Type,DirectX,Display Mode,Vsync,VSync Interval,Frame Rate Limit,Maximum FPS,Anti-Aliasing,Dynamic Resolution,Dynamic Resolution Target FPS,Dynamic Resolution Profile,Dynamic Resolution Minimum Scale,Anisotropic Filtering,HDR,Motion Blur Strength,Lighting Quality,Post Process,Shadows,Particles,Crowd,Mirrors,Ambient Occlusion,Screen Space Reflections,Texture Streaming,Vehicle Reflections,Weather Effects,Ground Cover,Skidmarks,SSRT Shadows,Asynchronous Compute
+1,Option 1,DirectX 11,Windowed,Off,Auto,Off,120 (Default),Off,Off,Auto,Aggressive,50 (Min),Off,Off,0% (Min),Low,Low,Ultra Low,Off,Low,Low,Off,Off,Ultra Low,Ultra Low,Low,Low,Off,Off,Off
+2,Option 2,DirectX 12,Fullscreen,On,1,On,30 (Min),CMAA2,On,30,Balanced,100 (Max),2x,,100% (Max),Medium,Medium,Low,Low,Medium,High,On,Medium,Low,Low,Medium,Medium,Low,On,On
+3,Option 3,,Windowed (Fullscreen),,2,,250 (Max),TAA Checkerboard,,40,Lazy,Step: 1,4x,,Step: 5%,High,High,Medium,Medium,High,Ultra High,HBAO+,High,Medium,Medium,High,High,High,,
+4,Option 4,,,,,,Step: 1,TAA,,60,,,8x,,,Ultra High,,High,High,Ultra High,,ASSAO,Ultra High,High,High,Ultra High,Ultra High,,,
+5,Option 5,,,,,,,TAA with FidelityFX Upscaling,,120,,,16x,,,,,Ultra High,,,,,,Ultra High,Ultra High,,,,,
+6,Option 6,,,,,,,TAA with FidelityFX Sharpening,,144,,,,,,,,,,,,,,,,,,,,
+7,Restart Required,TRUE,,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE
+8,Preset - Ultra Low,,,,,,,,,,,,,,,Low,Low,Ultra Low,Off,Low,Low,Off,Off,Ultra Low,Ultra Low,Medium,Low,Off,Off,On
+9,Preset - Low,,,,,,,,,,,,,,,Low,Low,Low,Low,Low,Low,Off,Off,Low,Low,Medium,Low,Off,Off,On
+10,Preset - Medium,,,,,,,,,,,,,,,Medium,Medium,Medium,Medium,Medium,Low,Off,Medium,Medium,Medium,Medium,Medium,Low,Off,On
+11,Preset - High,,,,,,,,,,,,,,,High,High,High,High,High,High,On,High,High,High,High,High,High,Off,On
+12,Preset - Ultra High,,,,,,,,,,,,,,,Ultra High,High,Ultra High,High,Ultra High,Ultra High,ASSAO,Ultra High,Ultra High,Ultra High,Ultra High,Ultra High,High,Off,On
+13,Review Settings,DirectX 12,Windowed (Fullscreen),Off,,On,90,TAA with FidelityFX Sharpening,Off,,,,16x,,0%,Ultra High,High,Ultra High,High,Ultra High,Ultra High,ASSAO,Ultra High,Ultra High,Ultra High,Ultra High,Ultra High,High,Off,On
+14,Minimum Acceptable,,,,,,,Off,,,,,Off,,,Low,,Low,Off,Low,Low,Off,Off,,,Low,Low,Off,,
+15,Minimum Acceptable - Notes,,,,,,,"There is aliasing, definitely, but not necessarily unacceptable when it comes to normal play",,,,,"Off only by definition of Minimum Acceptable.
+2x is noticeably better, as is 4x over 2x, and 8x over 4x.",,,"Controls the effects for shadows to, so Low produces hard shadows while Ultra High produces softer shadows",Can't tell you what it does,"Appears to control the shadow map resolution, with Ultra Low looking quite worse than Low even.
+Ultra Low can be done if you must, but start at Low, it is so much better than Ultra Low",You can live without them,This controls the draw distance for having animated crowds,"If you are not going to use the vehicle's mirrors, Low is fine.
+However, both Low and High use a lower frame rate, so if you do use those mirrors, you will see this and it is not pleasant.",Not really necessary,"Not really needed for this game.
+Medium is not very sharp, but you can see there are reflections",,,"Cannot spot difference between Low and Medium
+At Low, water on track does not reflect ambient/soft light, so the track can be dark even under stadium lights at night.
+At High the water does reflect this ambient/soft light, making the track quite bright","Controls the vegetation and likely other assets, but these are not really necessary, so Low removing them is not too great an issue","Off because you do not really need skidmarks, but they are nice to have",,
+16,Maximum Acceptable,,,,,,,TAA with FidelityFX Sharpening,,,,,16x,,,Medium,,Ultra High,Low,Medium,Ultra High,ASSAO,High,,,High,Medium,Low,,
+17,Maximum Acceptable - Notes,,,,,,,"TAA and TAA with FidelityFX Sharpening are both good to go for Maximums. CAS does definitely sharpen parts of the image, which is nice, so it is the maximum but just TAA is fine.
+TAA with FidelityFX Upscaling looks quite bad, worse than TAA Checkerboard. (This is at 2048x1152 though). It is possible this is meant more for higher resolutions, so the lower internal resolution would be higher than what I am getting here.
+Without considering higher resolutions, TAA Checkerboard looks markedly better than TAA with FidelityFX Upscaling.",,,,,"Racing games are the kind of game that will always benefit from anisotropic filtering, so naturally 16x looks better than the rest",,,"For just straight lighing, Medium is Max, cannot tell you how High and Ultra High differ
+Including the shadow effects, it is also Medium as I cannot spot any differences with High or Ultra High",,"Difference between Low and Medium is specific and hard to spot.
+High actually looks worse than Medium/Low in areas, I'm thinking a funny quirk to the sampling positions causing the shadows to be softer to the point of disappearing.
+Ultra High does clearly look the best though.
+",Cannot tell you difference between Low and the other options,"Can see a difference between Medium and Ultra High, but I do not think the difference will be noticeable when at speed during normal gameplay","Ultra High does not use a lower frame rate for the vehicle's mirrors, making it a clearly superior option, if you use these mirrors.","On, HBAO+, and ASSAO all look progressively better, with ASSAO looking the best
+I saw some possible flaws to ASSAO and On & HBAO+, but find the ASSAO flaw more acceptable than the others","Cannot spot difference between High and Ultra High, could be resolution dependent
+High is clearly sharper than Medium",,,Cannot spot difference between High and Ultra High,"Unsure what differences are above Medium, which does have a clear impact, but these higher options may still have an impact I do not see","Not really spotting a difference between Low and High. Might be a matter of distance before they disappear, in which case I could believe Low is enough.",,

@@ -1,0 +1,55 @@
+Order,Type,API,Window Mode,Enable V-Sync,Rescaling Filter,FidelityFX CAS,Variable Rate Shading,Field of View,Max FPS,CPU Speed,CPU Speed/No Dynamic Lighting,CPU Speed/Max Corpses,CPU Speed/Max Debris,CPU Speed/Max Debris Per Model,CPU Speed/Enable Dynamic Decals,CPU Speed/Disable Ragdoll Deaths,CPU Speed/Simple Character Destruction,CPU Speed/Rendering Distance,CPU Speed/Dynamic Shadows Distance,CPU Speed/Debris Shadow Casting,CPU Speed/Mirror Reflections,CPU Speed/Reflections Detail,CPU Speed/Reflections Bias,CPU Speed/Max Active Sounds,GPU Speed,GPU Speed/Max 3D Rendering MPix,GPU Speed/MSAA,GPU Speed/Transparency AA,GPU Speed/SSAA,GPU Speed/FXAA,GPU Speed/Texture Fitlering,GPU Speed/Anisotropic Filtering,GPU Speed/Parallax Mapping,GPU Speed/Parallaxing Quality,GPU Speed/Ambient Occlusion,GPU Speed/Screen Space Effects Precision,GPU Speed/Fast Lights,GPU Speed/Rendering LOD Bias,GPU Speed/Allow Refractions,GPU Speed/Max Shadow Size,GPU Speed/Soft Shadows,GPU Speed/Shadow Dithering Radius,GPU Speed/Shadow Trilinear Dithering,GPU Speed/Shadow Trilinear Span,GPU Speed/Ground Casts Shadows,GPU Speed/Distant Plant Shadows,GPU Speed/Bloom,GPU Speed/Zoom Blur,GPU Speed/Light Streaks,GPU Speed/Sharpen Streaks,GPU Speed/Heat Shimmer,GPU Speed/Depth of Field,GPU Speed/Motion Blur,GPU Speed/Channel Offset,GPU Speed/Particles Density,GPU Speed/Lens Flare Quality,GPU Speed/High Quality Trees,GPU Speed/Tree Rendering Distance,GPU Speed/Render Crumbs,GPU Speed/Grass Density,GPU Speed/Crumbs Density,GPU Speed/Ground Update Speed,GPU Speed/Ground Update Speed (Action),GPU Memory,GPU Memory/Ground Quality,GPU Memory/Ground Cache Capacity,GPU Memory/Textures Resolution,GPU Memory/Texture Quality,GPU Memory/Lightmaps Resolution,GPU Memory/Streaming Buffer Size
+1,Option 1,Direct3D 11,Borderless,Off,Point-Sampling,Off,None,75.00 (Default),25,Lowest,Off,0 (Min),Lowest,Lowest,Off,Off,Off,0 (Min),0 (Min),Off,Off,Lowest,0 (Min),0 (Min),Lowest,1 (HD 720p),None,None,None,None,Bilinear,None,None,Low,None,Low,Off,0 (Min),Off,Lowest,Off,0 (Min),Off,0 (Min),Off,High,None,None,None,Off,Off,Off,Off,Off,0 (Min),None,Off,512 (Min),Everything,0 (Min),0 (Min),0 (Min),0 (Min),Lowest,Lowest,Default,Low,Original,Low,Lowest
+2,Option 2,Direct3D 12,Fullscreen,On,Bilinear,On,Particles,0.60 (Step),30,Low,On,10 (Max),Low,Low,On,On,On,6 (Max),15 (Max),On,On,Low,6 (Max),10 (Max),Low,1.5 (900p),Low (2x),Sharp,Low (2x),Low,Trilinear,Low (2x),Fast,Optimal,Low,Optimal,On,6 (Max),On,Low,On,5 (Max),On,5 (Max),On,Normal,Optimal,Low,Low,On,On,On,On,On,5 (Max),Corona Only,On,8192 (Max),Grass Only,8 (Max),8 (Max),9 (Max),9 (Max),Low,Low,Ultra,Medium,Reduced,Medium,Low
+3,Option 3,Vulkan,Windowed,,Bicubic,,Scene,60.00 (Min),60,Medium,,1 (Step),Medium,Medium,,,,1 (Step),1 (Step),,,Optimal,1 (Step),1 (Step),Medium,2 (FHD 1080p),Medium (4x),Smooth,High (4x),Medium,,Medium (4x),Optimal,High,Medium,High,,1 (Step),,Medium,,1 (Step),,1 (Step),,Low,High,Optimal,Optimal,,,,,,1 (Step),Corona and Reflections,,512 (Step),,1 (Step),1 (Step),1 (Step),1 (Step),Medium,Medium,,High,,High,Medium
+4,Option 4,,,,Sharpen-Bicubic,,Full,120.00 (Max),90,High,,,High,High,,,,,,,,High,,,High,3,High (8x),,,High,,High (8x),Nice,,High,,,,,High,,,,,,,,High,High,,,,,,,"Corona, Reflections, and Glare",,,,,,,,High,High,,Ultra,,,High
+5,Option 5,,,,Lanczos,,,,120,Ultra,,,Ultra,Ultra,,,,,,,,Ultra,,,Ultra,4 (QHD 1440p),,,,Ultra,,Ultra (16x),,,Ultra,,,,,Ultra,,,,,,,,Ultra,Ultra,,,,,,,,,,,,,,,Ultra,Ultra,,,,,Ultra
+6,Option 6,,,,FidelityFX CAS,,,,144,,,,,,,,,,,,,,,,,6 (1800p),,,,,,,,,,,,,,Maximum,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+7,Option 7,,,,,,,,Unlimited,,,,,,,,,,,,,,,,,8 (4k2160p),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+8,Option 8,,,,,,,,,,,,,,,,,,,,,,,,,Unlimited,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+9,Review Settings,Vulkan,Borderless,Off,,Off,,90.00,Unlimited,Ultra,Off,10,Ultra,High,On,Off,Off,5,14,On,On,High,4,5,High,3,Medium (4x),Sharp,None,High,Bilinear,High (8x),Optimal,Low,High,Optimal,On,4.5,On,High,On,3,Off,3,Off,Normal,Optimal,None,Medium,On,On,Off,Off,On,5,"Corona, Reflections, and Glare",Off,2048.00,Everything,5,8,5,1,High,High,Default,High,Original,Medium,High
+10,Low+,,,,FidelityFX CAS,,,,,Ultra,Off,10,Ultra,Ultra,On,Off,Off,5,14,On,On,High,4,5,Low,1.5 (900p),Medium (4x),Sharp,None,None,Bilinear,Ultra (16x),None,Low,Low,Optimal,On,2,Off,Low,Off,4,On,1,Off,Normal,Optimal,Low,Low,Off,Off,Off,On,Off,3,Corona and Reflections,Off,1024,Everything,5,8,2,1,High,High,Default,High,Original,Medium,High
+11,Preset - Lowest,,,,FidelityFX CAS,,,,,Lowest,Off,0,Lowest,Lowest,Off,On,On,0,0,Off,Off,Lowest,1,1,Lowest,1 (HD 720p),None,Sharp,None,Low,Bilinear,Low (2x),None,Low,Low,Optimal,Off,0,Off,Low,Off,0,Off,0,Off,Low,Optimal,Low,None,Off,Off,Off,On,Off,1,Corona Only,Off,512,Grass Only,0,0,0,0,Lowest,Lowest,Default,Medium,Reduced,Low,Custom
+12,Preset - Low,,,,FidelityFX CAS,,,,,Low,Off,1,Low,Low,On,Off,On,2,3,Off,Off,Low,2,2,Low,1.5 (900p),None,Sharp,None,Low,Bilinear,Medium (4x),None,Low,Low,Optimal,On,2,Off,Low,Off,4,On,1,Off,Normal,Optimal,Low,Low,Off,Off,Off,On,Off,3,Corona and Reflections,Off,1024,Everything,5,8,2,1,Low,Low,Default,Medium,Original,Medium,Low
+13,Preset - Medium,,,,FidelityFX CAS,,,,,Medium,Off,4,Medium,Medium,On,Off,Off,4,8,On,On,Optimal,2,3,Medium,2 (FHD 1080p),Low (2x),Sharp,None,Medium,Trilinear,Medium (4x),Fast,Optimal,Medium,Optimal,On,4,On,Medium,On,1,Off,3,Off,Normal,Optimal,Optimal,Medium,Off,On,On,On,On,5,"Corona, Reflections, and Glare",Off,2048.00,Everything,5,8,4,1,Medium,Medium,Default,Medium,Original,High,Medium
+14,Preset - High,,,,,Off,,,,High,Off,6,High,High,On,Off,Off,4.5,9,On,On,Optimal,3,4,High,3,Medium (4x),Sharp,None,High,Bilinear,High (8x),Optimal,Low,High,Optimal,On,4.5,On,High,On,3,Off,3,Off,Normal,Optimal,High,Medium,On,On,On,On,On,5,"Corona, Reflections, and Glare",Off,2048.00,Everything,5,8,5,1,High,High,Default,High,Original,Medium,High
+15,Preset - Ultra,,,,,Off,,,,Ultra,Off,10,Ultra,Ultra,On,Off,Off,5,14,On,On,High,4,5,Ultra,4 (QHD 1440p),Medium (4x),Sharp,None,Ultra,Trilinear,High (8x),Optimal,Optimal,Ultra,Optimal,On,5,On,Custom,On,4,Off,4,On,Normal,Optimal,Ultra,High,On,On,On,On,On,5,"Corona, Reflections, and Glare",On,2048.00,Everything,8,8,6,2,Ultra,Ultra,Ultra,Ultra,Original,High,Ultra
+16,Minimum Acceptable,,,,,,Off,,,Lowest,,,,,,,,,,,,,,,Low,1.5 (900p),None,,,,,Low (2x),,,None,,,,,Lowest,,,,,,,,,,,,,,,,,,,,,,,,Lowest,,,,,,
+17,Minimum Acceptable - Notes,,,When on it definitely introduces a stutter for me,,,,,,"Lowest looked alright to me, not great, but if you have to use it I do not think it is that bad. Of course, I do not need it at all, as both CPUs are capable of Ultra easily.",,,,,,,,,,,,,,,"Day 1 update invalidates some of the below
+Low looks pretty good on its own, even better with MSAA at 4X, FXAA Off, and Anisotropic Filtering at 16X
+
+Low with those changes, and GPU Memory Ultra looks better than what I played at. I wish I had known so I could be enjoying this performance and this visual quality
+
+post-release
+Lowest looks okay, might be from looking at television, might be from release day patch","This setting appears to control resolution scaling, based on when it is below native resolution, FidelityFX CAS becomes Rescale Filtering
+
+For monitor (2048x1152) 900p was Minimum, but for 1920x1080 television, 720p looked okay, but I also sit four feet away, so not a perfect situation","None because the aliasing is not that bad, but is present so turn it on if you can",,,"I will almost always recommend disabling FXAA as it does soften the image
+For antialiasing, use MSAA",,None looks bad so 2x is my minimum,,,"None because you do not necessarily need it, but it can be nice to have
+
+Day 1 update invalidates some of the below
+I find AO to have one of the largest impacts on performance, but at Low still looks pretty good without being too bad
+Medium is probably doable, but its impact is present",,,,,"Lowest is minimum because it still has shadows, but they clearly look poor
+
+Day 1 update invalidates some of the below
+Easily has the largest impact on performance, so go to Low if you need to
+Cannot say I can see a difference from Medium, but performacne does take a hit at that point in some situations",,,,,,,,,,,,,,,,,,,,,,,,"Lowest is minimum because it still looks alright, but Low is definitely better",,,,,,
+18,Maximum Acceptable,,,,,,Scene,,,,,,,,,,,,,,,,,,Ultra,,High (8x),,,,,Ultra (16x),,,Ultra,,,,,Maximum,,,,,,,,,,,,,,,,,,,,,,,,Ultra,,,,,,
+19,Maximum Acceptable - Notes,,,,,,"When at Full, which includes scene and depth prepass, there is a shadow-like artifact, but this is not the case at Scene.
+However, while Scene lacks this, the gun and hand look markedly worse, so you still do not want to use it, except maybe in combination with SSAA, but that is kind of contrary to the point.
+Without this artifact though, it took SSAA 4x from ~60 FPS while standing still to around 100 FPS, so very impressive in that regard.",,,,,,,,,,,,,,,,,,"Ultra is noticeably, if not significantly different from High, earning it the Maximum",,"2x, 4x, and 8x all do increasingly better jobs addressing the aliasing, including a temporal example I spotted",,,,,"4x appears to be the sweet spot, at least for A Breakfast in France
+8x looks better than 4x and 16x I think looks better, but it might not be enough to matter",,,"Ultra looks the best, as the shadow is the most consistent
+All other levels have an amount of blotchiness, but it does get better with each level.",,,,,"Maximum produces very sharp shadows, almost like 1:1 sampling is being used",,,,,,,,,,,,,,,,,,,,,,,,"Unsure of difference between Ultra and High, but will leave Ultra as maximum, on faith it is different and that higher resolutions will show this.
+
+Day 1 update invalidates some of the below
+The difference is significant and obvious between Ultra and High. The example I could see of lower quality textures was immediately fixed by going to Ultra.
+
+High now behaves correctly, with how textures are streamed in
+It also now says Ultra is more than my card may handle",,,,,,
+20,RX 580 - 60 FPS Target,Vulkan,,,,,,,,Ultra,,,,,,,,,,,,,,,High,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,High,,,,,,
+21,RX Vega 64 - 60 FPS Target,Vulkan,,,,,,,,Ultra,,,,,,,,,,,,,,,Ultra,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ultra,,,,,,
+22,GTX 770 - 60 FPS Target,DirectX 11,,,,,,,,Ultra,,,,,,,,,,,,,,,Low,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Low,,,,,,
+23,GTX 980 - 60 FPS Target,DirectX 11,,,,,,,,Ultra,,,,,,,,,,,,,,,Medium,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Medium,,,,,,
+24,GTX 1070 - 60 FPS Target,Vulkan,,,,,,,,Ultra,,,,,,,,,,,,,,,Ultra,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ultra,,,,,,
+25,GTX 1080 - 60 FPS Target,Vulkan,,,,,,,,Ultra,,,,,,,,,,,,,,,Ultra,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ultra,,,,,,
+26,RTX 2060 - 60 FPS Target,Vulkan,,,,,,,,Ultra,,,,,,,,,,,,,,,Ultra,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ultra,,,,,,
+27,RTX 2080 - 60 FPS Target,Vulkan,,,,,,,,Ultra,,,,,,,,,,,,,,,Ultra,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ultra,,,,,,

@@ -1,0 +1,33 @@
+Order,Type,Anti-Aliasing Quality,Window Mode,V-Sync,Texture Quality,Objects Quality,Shadows Quality,Physics Quality,Shaders Quality,Ray Tracing Quality,Volumetric Effects Quality,Game Effects Quality,Post Processing Quality,Particles Quality,Water Quality,Vegetation,Motion Blur
+1,Option 1,Off,Windowed,Off,Low,Low,Low,Low,Low,Off,Low,Low,Low,Low,Low,Low,Off
+2,Option 2,SMAA 1x,Fullscreen,On,Medium,Medium,Medium,Medium,Medium,Performance,Medium,Medium,Medium,Medium,Medium,Medium,On
+3,Option 3,TAA,Borderless,,High,High,High,High,High,High,High,High,High,High,High,High,
+4,Option 4,SMAA 1Tx,,,Very High,Very High,Very High,Very High,Very High,Very High,Very High,Very High,Very High,Very High,Very High,Very High,
+5,Option 5,SMAA 2Tx,,,Can It Run Crysis?,Can It Run Crysis?,Can It Run Crysis?,Can It Run Crysis?,Can It Run Crysis?,Can It Run Crysis?,,,,Can It Run Crysis?,Can It Run Crysis?,Can It Run Crysis?,
+6,Review Settings,SMAA 2Tx,Borderless,Off,High,High,High,High,High,Off,High,High,High,High,High,High,Off
+7,Minimum Acceptable,Off,,,,,Low,Low,Low,Off,,,,,,Low,
+8,Minimum Acceptable - Notes,"Off because the aliasing really is not that bad, but it is still quite visible.
+SMAA 1x handles the spatial aliasing quite well, so you can go to that if you wish
+TAA handles spatial and temporal well, but there is clear ghosting and the accumulation is not that fast, so you can see things brighten after you finish moving",,,"Does not matter, setting appears to be texture streaming related, not direcet texture quality.
+From Low to Can it Run Crysis?, the VRAM utilization, according to Task Manager (yes it can report that) was the same at around 6 GB, the limit for the card",,Low and Medium look no different,"An exploding barrel looks different on Low than Can it Run Crysis? but Low still looks pretty good. Perhaps other examples are influenced more, but as this is, I would have no issue whatsoever with Low.","Low looks fine, but is definitely not as good as High+
+
+The only difference I spotted was with the filtering of shadows, so at Low-Medium the transition at the edge of shadows was not as smooth than at High+","Off because you do not really need it.
+If you want it on, Performance does not look that bad, at least for reflections",Don't know,Don't know,Don't know,Don't know,Don't know,"The setting appears to control draw distance for vegetation (foliage objects so rocks are counted too). At Low the distance is still pretty good, but you can see things dot/dissolve in.
+Medium is better, and High is better still, but Low looks fine",
+9,Maximum Acceptable,SMAA 2Tx,,,,,High,,High,Can It Run Crysis?,,,,,,Very High,
+10,Maximum Acceptable - Notes,"SMAA 2Tx is defintiely the best, handles both spatial and temporal aliasing very well
+SMAA 1Tx handles temporal better than TAA (less ghosting, fastering accumulation), but TAA handles spatial aliasing better.",,,,,"High, Very High, Can it Run Crysis? all look the same. There is a pulsing to the shadows that makes little sense to be there (the sun does not move). The appearance of this pulsing distinguishes High+ from Low and Medium, but nothing distinguishes between High, Very High and Can it Run Crysis?, at least not at the area I am looking (near the GPS blocker in Contact)",Do not feel like investigating Maximum because of the amount of checkpoint reloading that will be necessary to compare explosions,"High+ all look the same for the example I found of the rifle shadow
+Potentially other examples could show other differences, but I am happy I found one thing that was clearly impacted","Can It Run Crysis? is the maximum because each level actually does have a different visual quality to it.
+Performance has noise to the reflections, like data is missing
+High has less noise than Performance
+Very High has less of the Performance noise than High but also some noise that looks like lossy image compression
+Can it Run Crysis? has noise that looks like lossy image compression and very little of the missing data noise",,,,,,"Cannot spot difference between Very High and Can It Run Crysis?
+Between High and Very High I was able to spot additional objects with Very High, but they are at such a distance that it really doesn't matter much. (I would not feel bad about going to High if it helps with performance.)",
+11,RX 580 - 60 FPS Target,SMAA 2Tx,,,Medium,Medium,Medium,Medium,Medium,Off,Medium,Medium,Medium,Medium,Medium,Medium,
+12,RX Vega 64 - 60 FPS Target,SMAA 2Tx,,,Very High,Very High,Very High,Very High,Very High,High,Very High,Very High,Very High,Very High,Very High,Very High,
+13,GTX 770 - 60 FPS Target,SMAA 2Tx,,,Low,Low,Low,Low,Low,Off,Low,Low,Low,Low,Low,Low,
+14,GTX 980 - 60 FPS Target,SMAA 2Tx,,,Medium,Medium,Medium,Medium,Medium,Off,Medium,Medium,Medium,Medium,Medium,Medium,
+15,GTX 1070 - 60 FPS Target,SMAA 2Tx,,,High,High,High,High,High,Off,High,High,High,High,High,High,
+16,GTX 1080 - 60 FPS Target,SMAA 2Tx,,,High,High,High,High,High,High,High,High,High,High,High,High,
+17,RTX 2060 - 60 FPS Target,SMAA 2Tx,,,High,High,High,High,High,High,High,High,High,High,High,High,
+18,RTX 2080 - 60 FPS Target,SMAA 2Tx,,,Very High,Very High,Very High,Very High,Very High,Very High,Very High,Very High,Very High,Very High,Very High,Very High,
