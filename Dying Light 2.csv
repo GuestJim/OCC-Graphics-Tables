@@ -1,0 +1,39 @@
+Order,Type,Window Mode,Game Screen Size,Vertical Synchronization,Upscaler Mode,Sharpness,Gamma,Field of View,Film Grain Effect,Motion Blur Effect,Distance Blur Effect,Colorblind Mode,Renderer Mode,Asynchronous Compute,Texture Quality,LOD Quality,Antialiasing Quality,Motion Blur Quality,Particles Quality,Sun Shadows Quality,Contact Shadows Quality,Ambient Occlusion Quality,Global Illumination Quality,Reflections Quality,Raytraced Flashlight,Fog Quality
+1,Option 1,Windowed Borderless,100 (Default),Off,No upscaling,30 (Default),20 (Default),0 (Default),Off,0 (Min),Off,None,D3D11,Off,Medium,Low,Low,Low,Low,Very Low,None,None,Low,Low,Off,Low
+2,Option 2,Fullscreen,85 (Min),On,DLSS - Quality,0 (Min),0 (Min),-10 (Min),On,100 (Max),On,Protanopia,D3D12,On,High,High,High,Medium,High,Low,Low,Low,Medium,Medium,On,Medium
+3,Option 3,Windowed,100 (Max),,DLSS - Balanced,100 (Max),40 (Max),20 (Max),,1 (Step),,Deuteranopia,D3D12 Ultimate (Raytracing),,,,,High,,Medium,Medium,High,High,High,,High
+4,Option 4,,1 (Step),,DLSS - Performance,1 (Step),20 (Step,1 (Step),,,,Tritanopia,,,,,,,,High,High,Ultra (Raytracing),Ultra (Raytracing),Ultra (Raytracing),,
+5,Option 5,,,,FSR - Quality,,,,,,,,,,,,,,,Ultra (Raytracing),Very High,,,,,
+6,Option 6,,,,FSR - Balanced,,,,,,,,,,,,,,,,,,,,,
+7,Option 7,,,,FSR - Performance,,,,,,,,,,,,,,,,,,,,,
+8,Option 8,,,,Linear - Quality,,,,,,,,,,,,,,,,,,,,,
+9,Option 9,,,,Linear - Balanced,,,,,,,,,,,,,,,,,,,,,
+10,Option 10,,,,Linear - Performance,,,,,,,,,,,,,,,,,,,,,
+11,Option 11,,,,FSR - Ultra Quality,,,,,,,,,,,,,,,,,,,,,
+12,Preset - Very Low Quality,,,,FSR - Balanced,95,,,,,,,D3D11,Off,Medium,Low,Low,Low,Low,Very Low,None,Low,Low,Low,Off,Low
+13,Preset - Low Quality,,,,FSR - Quality,45,,,,,,,D3D11,Off,High,High,Low,Low,Low,Low,Low,Low,Low,Low,Off,Low
+14,Preset - Medium Quality,,,,No upscaling,,,,,,,,D3D11,Off,High,High,High,Medium,High,Medium,High,High,Medium,Medium,Off,Medium
+15,Preset - High Quality,,,,No upscaling,45,,,,,,,D3D11,Off,High,High,High,High,High,High,Very High,High,High,High,Off,High
+16,Preset - Raytracing,,,,DLSS - Quality,45,,,,,,,D3D12 Ultimate (Raytracing),On,High,High,High,Medium,High,Ultra (Raytracing),High,Ultra (Raytracing),Medium,Medium,Off,Medium
+17,Preset - High Quality Raytracing,,,,DLSS - Quality,45,,,,,,,D3D12 Ultimate (Raytracing),On,High,High,High,High,High,Ultra (Raytracing),Very High,Ultra (Raytracing),Ultra (Raytracing),Ultra (Raytracing),On,High
+18,Review Settings,Windowed Borderless,100,Off,No upscaling,30,,0,Off,,On,None,D3D12,On,,,Low,None,Low,PCF,Medium,Low,Medium,Medium,Off,Medium
+19,Minimum Acceptable,,,,No upscaling,,,,,,,,,,Medium,Low,Low,,Low,Very Low,None,None,Low,Low,Off,Medium
+20,Minimum Acceptable - Notes,,,,"Minimum is No Upscaling because I feel you are better off tweaking the other settings first. Also even DLSS Quality had issue with softness, pixel popping, and other temporal aliasing issues. FSR actually seemed better in that regard, and when I used it to collect data, looked pretty good. I would still look to other settings first though.
+Note 1920x1080",,,,,,,,,,"I think i saw a difference between Medium and High, but it was subtle enough that I'm not concerned about it.","I cannot spot the difference, even in screenshots for the environment. Maybe NPCs? Also, this is 1920x1080.","I could spot a subtle difference between Low and High, but it is very subtle. Enough to seperate them for min and max, but not enough to say Max has to be High.",,Can't see a clear difference between Low and High when looking at a small bonfire. Leaving Max blank for now,"Can see blocking due to low resolution, but it isn't that bad. There is some blending I think and that is helping","None is minimum because while you do lose some realism, if you have to for performance, go ahead and turn them off.","The effect is there, but there are still enough other shadows that to turn AO off you are not really losing too much realism.","Cannot tell you difference between Low and High. Spotted in screenshot, but honestly cannot say if High is truly the higher quality visual.","Cannot tell you difference between Low and High, so stick to low.",Off is minimum because it's completely fine,"Medium is the minimum because when in the fog there is a clear pattern moving through the fog on Low and it looks terrible. Medium is without this.
+It looks like it might be a temporal aliasing artifact."
+21,Maximum Acceptable,,,,No upscaling,,,,,,,,,,High,High,High,,,Medium,High,High,,Low,Off,High
+22,Maximum Acceptable - Notes,,,,,,,,,,,,,,,Can't tell you it is clearly there but do not want to suggest it isn't for higher resolutions or other locations,,,,"Couldn't tell you difference between Medium and High.
+
+Ray tracing failed to impress me. I could not tell you how it is better than High. Maybe the softer edges as the shadow gets longer, but this didn't look quite right to me. It looked too soft to me.",Can't see difference between High and Very High. High and Medium though I could. There is a speckling to Medium that I do not see on High.,"I can see a difference between Low and High. It isn't much, but it is there. It's like High is actually applying a shadow and Low a shadow flavor.
+
+Can spot the difference in screenshots, but in-game and gameplay, I doubt anyone will.","RT definitely not worth it, at least not on RTX 2060. Doubt it would be on RTX 2080 either. Essentially screenshot difference to really spot it. While playing I doubt anyone will truly notice. All the information is still there, so why tank performance?
+Went from 34 FPS to 22 FPS going from High to Ultra, which is 16 ms difference in frame time.
+Went inside and there it was really bad. On the top floor of a hospital quarantine zone, it was almost pitch black despite there being multiple lights, and looking closely at two of them, I could see the light was unrealistic as some areas were better lit, despite being farther away. Specifically the light over the door was illuminating at the wall better than the ceiling immediately above it, and in aother place the light was not illuminating something inches away from it, but I could see the rays travelling down the stairway, feet from the light.","Curiously even with RT on, was still seeing the classic screenspace artifact are losing reflection's near the screen's edge... No idea.","It is possible to spot the difference between Off and On, but it is indirect lighting of the scene, but this is a flashlight that follows your view perfectly. The great majority of what you're looking at is supposed to be under the flashlight's direct lighting, so what's the point?","I think it has a different distribution for transparency for the fog, allowing more time that you can see through it."
+23,RX 580 - 60 FPS,,,,No upscaling,,,,,,,,D3D11,On,High,High,Low,,Low,Low,Low,Low,Low,Low,Off,Medium
+24,RX Vega 64 - 60 FPS,,,,No upscaling,,,,,,,,D3D11,Off,High,High,High,,High,High,Very High,High,High,High,Off,High
+25,GTX 770 - 60 FPS,,,,FSR - Balanced,95,,,,,,,D3D11,Off,Medium,Low,Low,,Low,Very Low,None,Low,Low,Low,Off,Low
+26,GTX 980 - 60 FPS,,,,FSR - Ultra Quality,95,,,,,,,D3D12,On,High,High,Low,,Low,Low,Low,Low,Low,Low,Off,Medium
+27,GTX 1070 - 60 FPS,,,,No upscaling,,,,,,,,D3D12,On,High,High,Low,,Low,Low,Low,Low,Low,Low,Off,Medium
+28,GTX 1080 - 60 FPS,,,,No upscaling,,,,,,,,D3D11,On,High,High,Low,,Low,Low,Low,Low,Low,Low,Off,Medium
+29,RTX 2060 - 60 FPS,,,,No upscaling,,,,,,,,D3D12,On,High,High,High,,High,High,Very High,High,High,High,Off,High
+30,RTX 2080 - 60 FPS,,,,No upscaling,,,,,,,,D3D12,On,High,High,High,,High,High,Very High,High,High,High,Off,High
