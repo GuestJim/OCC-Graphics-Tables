@@ -35,5 +35,5 @@ Went inside and there it was really bad. On the top floor of a hospital quaranti
 26,GTX 980 - 60 FPS,,,,FSR - Ultra Quality,95,,,,,,,D3D12,On,High,High,Low,,Low,Low,Low,Low,Low,Low,Off,Medium
 27,GTX 1070 - 60 FPS,,,,No upscaling,,,,,,,,D3D12,On,High,High,Low,,Low,Low,Low,Low,Low,Low,Off,Medium
 28,GTX 1080 - 60 FPS,,,,No upscaling,,,,,,,,D3D11,On,High,High,Low,,Low,Low,Low,Low,Low,Low,Off,Medium
-29,RTX 2060 - 60 FPS,,,,No upscaling,,,,,,,,D3D12,On,High,High,High,,High,High,Very High,High,High,High,Off,High
+29,RTX 2060 - 60 FPS,,,,No upscaling,,,,,,,,D3D11,Off,High,High,High,Medium,High,Medium,High,High,Medium,Medium,Off,Medium
 30,RTX 2080 - 60 FPS,,,,No upscaling,,,,,,,,D3D12,On,High,High,High,,High,High,Very High,High,High,High,Off,High
