@@ -1,0 +1,49 @@
+Order,Type,API,Display Mode,VSync,Maximum Frames Per Second,DLSS Frame Generation,NVIDIA Reflex Low Latency,Hardware Cursor,Ray Tracing,RT Global Illumination,RT Reflections,RT Shadows,RT Ambient Occlusion,Anti-Aliasing,FSR Quality,DLSS Quality,Dynamic Resolution Scaling,Sharpening,Screen Space Ambient Occlusion,Screen Space Reflections,Motion Blur,Blur,Bloom,Depth of Field,Chromatic Aberration,Vignetting,Light Shafts,Camera Lens Effects,NVIDIA HairWorks,NVIDIA HairWorks AA,NVIDIA HairWorks Preset,Number of Background Characters,Shadow Quality,Terrain Quality,Water Quality,Foliage Visibility Range,Grass Density,Texture Quality,Detail Level
+1,Option 1,DirectX 11,Windowed,Off,Unlimited,Off,Off,Off,Off,Performance,Off,Off,Off,Off,Auto,Auto,Off,Off,Off,Low,Off,Off,Off,Off,Off,Off,Off,Off,Off,0,Low,Low,Low,Low,Low,Low,Low,Low,Low
+2,Option 2,DirectX 12,Borderless Window,On,30,On,On,On,On,Quality,On,On,On,FXAA,Quality,Quality,On,Low,On,Hgh,On,On,On,On,On,On,On,On,Geralt,2,High,Medium,Medium,Medium,Medium,Medium,Medium,Medium,Medium
+3,Option 3,,Fullscreen,,60,,On + Boost,,,,,,,TAAU,Balanced,Balanced,,High,,,,,,,,,,,On,4,,High,High,High,High,High,High,High,High
+4,Option 4,,,,75,,,,,,,,,FSR 2,Performance,Performance,,,,,,,,,,,,,,8,,Ultra,Ultra,Ultra,Ultra,Ultra,Ultra,Ultra,Ultra
+5,Option 5,,,,90,,,,,,,,,DLSS,Ultra Performance,Ultra Performance,,,,,,,,,,,,,,,,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+
+6,Option 6,,,,120,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+7,Option 7,,,,144,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+8,Preset - Low,,,,,,,,Off,Off,Off,Off,Off,,,,,,,,,,,,,,,,Off,0,Low,Low,Low,Low,Low,Low,Low,Low,Low
+9,Preset - Medium,,,,,,,,Off,Off,Off,Off,Off,,,,,,,,,,,,,,,,Off,0,Low,Medium,Medium,Medium,Medium,Medium,Medium,Medium,Medium
+10,Preset - High,,,,,,,,Off,Off,Off,Off,Off,,,,,,,,,,,,,,,,Geralt,4,High,High,High,High,High,High,High,High,High
+11,Preset - Ultra,,,,,,,,Off,Off,Off,Off,Off,,,,,,,,,,,,,,,,On,4,High,Ultra,Ultra,Ultra,Ultra,Ultra,Ultra,Ultra,Ultra
+12,Preset - Ultra+,,,,,,,,Off,Off,Off,Off,Off,,,,,,,,,,,,,,,,On,8,High,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+
+13,Preset - RT,,,,,,,,On,Performance,Off,Off,Off,,,,,,,,,,,,,,,,On,8,High,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+
+14,Preset - RT Ultra,,,,,,,,On,Quality,On,On,On,,,,,,,,,,,,,,,,On,8,High,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+
+15,Minimum Acceptable,,,,,,,,Off,Performance,Off,Off,Off,TAAU,Performance,Balanced,,Off,Off,Low,,,,,,,,,Off,0,Low,Low,Low,,Low,Low,Low,Medium,
+16,Minimum Acceptable - Notes,,,,,,,,,do not need it on,"While the RT reflections are better by showing things that are outside of screen space, so a definite win there, I am doubtful of their accuracy in other situations.
+In one place the reflections really brightened an area, but I do not believe it should have been so brightened. It was an area of marsh-grass, so reasonably dense that was suddenly well illuminated as though they were not casting shadows, and there were clear and sharp reflections off of the water to illuminate some of these grass blades, again looking completely unnatural for such a dim, soft-lit day.","RT does add shadows for grass, but this can be acheived without RT so I'm not willing to give it to RT as a clear win.",,"FXAA didn't do better than Off
+With dynamic resolution disabled, I can't say sharpening is required for TAAU, so that is certainly the minimum without FSR/DLSS
+
+With FSR Performance, there is no temporal instability worth speaking of (had a single pixel unstable) while DLSS Performance had obvious distortion, like heat distortion. So for that option at 1920x1080, FSR wins based on stability.","Performance legitimately impresses me as I cannot spot any artifacts or distortions from the lower resolution being upscaled.
+DLSS even at Balanced had temporal stability issues, so this is really impressive.
+Plus, this is approaching double performance (from 65 to 115 FPS)","Balanced does have some temporal instability that is visible, but I can understand tolerating it for the performance you want.
+
+Quality is free of this instability, from what I saw while testing it. That is what I would recommend, but can understand going to Balanced, if necessary.
+Testing done at 1920x1080",,Off is minimum because you don't really need it,,,,,,,,,,,Off because you don't need it,0 because can't tell the difference,Low because can't tell the difference,"Low because I doubt it matters enough, from my testing at least, to warrant a higher minimum","Low because the shadows still looked good
+I cannot spot a visual difference between Low through Ultra, so technically any of those may be acceptable.","I'm not spotting a difference between Low and Ultra+, so just skipping.",Low is the minimum because it looks good and I can't tell you it's different from any other option,"Low is the minimum because the range is actually pretty good, but there are clear improvements as you go up.","Low is acceptable, but if you can do Medium, try","Medium is the minimum acceptable. If you have to go lower, Low is feasible, but really try to do Medium.","I'm not sure what it's controlling, so can't test and compare."
+17,Maximum Acceptable,,,,,,,,On,Performance,Off,On,On,TAAU,Quality,Quality,,Low,On,High,,,,,,,,,Geralt,,,,Ultra+,,,Ultra+,High,Ultra+,
+18,Maximum Acceptable - Notes,,,,,,,,On only so the other settings can be enabled,Performance is the maximum because I can't tell you what the difference is,,"The foliage shadows are nice to have, so happy about that, but I'm unconvinced on it in general.
+The RT shadows were also generally sharper than the normal shadows, which all have soft edges, but that's okay. It is horizontal image quality
+
+Did observe at Oxenfurt a shadow being cast with RT without anything to cast it. Look at the bridge in the screenshots. The Sun is to the right and behind me, so the shadow is cast on what is directly illuminated by the Sun.","On is the maximum because visually, it does look good
+But, for gameplay purposes, this is still horizontal movement/screenshot difference","TAAU because it can be enabled without lowering the render resolution.
+
+FSR2 and DLSS are at parity to my eyes, at 1920x1080. FSR2 is more stable when paused. DLSS might be preserving some details better at motion. Still, the performance improvement looked similar between them, and the image quality was definitely similar, so use whichever you wish, if you must use them.",Quality is the maximum because it is the maximum option. No artifacts or instability to speak of.,Quality is the maximum option but also the only one that did not show any instability.,,"Actually unsure Low is doing anything, it might be subtle, but definitely saw oversharpening with High that I'd rather avoid.","Off is like a more subtle version of shadows being off (but they are not), so On does look better, but if you have to turn it off, you can.","Low kind of looks like it might be Off, but that's not too bad. You can live without those. High does still look good, so that is the maximum",,,,,,,,,"Geralt because his hair looks fine with it, but at least a bear's hair looks worse with it, in my opinion.",No maximum because I can't see a difference but am willing to acknowledge there is one I'm not seeing,No maximum because I can't see a difference but am willing to acknowledge there is one I'm not seeing,,,,,"Ultra+ is the maximum, but diminishing returns above High","High is maximum acceptable because the difference from Medium is visible. Ultra and Ultra+ do continue to increase the density, but it is unclear/subtle so likely not worth it.","High, Ultra, and Ultra+ are hard to see differences between, but I am willing to believe that can exist at higher resolutions and willing to defer to the GPU's management of the textures and Anisotropic Filtering (I'm assuming is baked in) at Ultra+ to give you good image quality without any hassle.",
+19,RX Vega 64 - 60 FPS,DirectX 11,,,,,,,Off,,,,,TAAU,,,Off,,On,High,,,,,,,,,On,8,High,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+
+20,GTX 770 - 60 FPS,DirectX 11,,,,,,,Off,,,,,TAAU,,,Off,,On,High,,,,,,,,,Off,,,Low,Low,Low,Low,Low,Low,Medium,Low
+21,GTX 980 - 60 FPS,DirectX 11,,,,,,,Off,,,,,TAAU,,,Off,,On,High,,,,,,,,,Off,,,High,High,High,High,High,High,High,High
+22,GTX 1070 - 60 FPS,DirectX 11,,,,,,,Off,,,,,TAAU,,,Off,,On,High,,,,,,,,,Off,,,Ultra,Ultra,Ultra,Ultra,High,Ultra,Ultra,Ultra
+23,GTX 1080 - 60 FPS,DirectX 11,,,,,,,Off,,,,,TAAU,,,Off,,On,High,,,,,,,,,On,8,High,Ultra+,Ultra+,Ultra+,Ultra+,High,Ultra+,Ultra+,Ultra+
+24,RTX 2060 - 60 FPS,DirectX 11,,,,,,,Off,,,,,TAAU,,,Off,,On,High,,,,,,,,,Geralt,8,High,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+
+25,RTX 2080 - 60 FPS,DirectX 11,,,,,,,Off,,,,,TAAU,,,Off,,On,High,,,,,,,,,On,8,High,Ultra+,Ultra+,Ultra+,Ultra+,High,Ultra+,Ultra+,Ultra+
+27,RX Vega 64 - 60 FPS,DirectX 12,,,,,,,Off,,,,,TAAU,,,Off,,On,High,,,,,,,,,Off,,,High,High,High,High,High,High,High,High
+28,GTX 770 - 60 FPS,DirectX 12,,,,,,,Off,,,,,TAAU,,,On,,On,High,,,,,,,,,Off,,,Low,Low,Low,Low,Low,Low,Medium,Low
+29,GTX 980 - 60 FPS,DirectX 12,,,,,,,Off,,,,,FSR 2,Quality,,Off,,On,High,,,,,,,,,Off,,,Medium,Medium,Medium,Medium,Medium,Medium,Medium,Medium
+30,GTX 1070 - 60 FPS,DirectX 12,,,,,,,Off,,,,,FSR 2,Quality,,Off,,On,High,,,,,,,,,Geralt,4,High,High,High,High,High,High,High,High,High
+31,GTX 1080 - 60 FPS,DirectX 12,,,,,,,Off,,,,,FSR 2,Quality,,Off,,On,High,,,,,,,,,On,4,High,Ultra,Ultra,Ultra,Ultra,Ultra,Ultra,Ultra,Ultra
+32,RTX 2060 - 60 FPS,DirectX 12,,,,,,,Off,,,,,FSR 2,Quality,,Off,,On,High,,,,,,,,,On,4,High,Ultra,Ultra,Ultra,Ultra,Ultra,Ultra,Ultra,Ultra
+33,RTX 2080 - 60 FPS,DirectX 12,,,,,,,Off,,,,,TAAU,,,Off,,On,High,,,,,,,,,On,8,High,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+,Ultra+
